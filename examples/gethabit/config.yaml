@@ -1,0 +1,43 @@
+# Example instance: gethabit.dev. Throwaway, used for the dry run and the measured probe.
+# Paths: root is the kit repo, so the loop writes only under examples/gethabit/.
+
+site_url: https://gethabit.dev
+root: ../..
+content_dir: examples/gethabit/content
+loop_dir: examples/gethabit
+page_extension: .md
+build_command: ""                   # no site build in this example: recorded as skipped
+copy_rules: ""
+
+# The five target keywords from Habit's skill research (US market, measured 22.10.2026).
+language: English
+location_code: 2840
+language_code: en
+
+target_keywords:
+  - grill me skill
+  - matt pocock skills
+  - archify
+  - ui ux pro max skill
+  - taste skill
+track_domain: true
+
+budget:
+  max_usd_per_run: 3
+  max_tasks_per_run: 3
+  max_pages_per_run: 1
+  dataforseo_cap_usd: 0.5
+
+models:
+  builder: claude-sonnet-5-5
+  critic: claude-opus-5-5
+  advisor: ""
+
+critic:
+  pass_score: 17
+  max_rewrites: 1
+
+verify:
+  after_days: 21
+  gsc_property: sc-domain:gethabit.dev
+  gsc_key_env: GSC_KEY_FILE

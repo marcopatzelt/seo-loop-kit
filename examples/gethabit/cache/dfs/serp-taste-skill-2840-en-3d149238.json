@@ -1,0 +1,656 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "5.7263 sec.",
+ "cost": 0.002,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10220854-1430-0139-0000-d9f62687280c",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "5.6307 sec.",
+   "cost": 0.002,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "advanced"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "location_code": 2840,
+    "language_code": "en",
+    "keyword": "taste skill",
+    "device": "desktop",
+    "depth": 10,
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "taste skill",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=taste%20skill&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-22 08:55:04 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "related_searches"
+     ],
+     "se_results_count": 97,
+     "pages_count": 1,
+     "items_count": 9,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "domain": "www.tasteskill.dev",
+       "title": "Taste Skill | The Anti-Slop Frontend Framework for AI Agents",
+       "url": "https://www.tasteskill.dev/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.tasteskill.dev",
+       "website_name": "Taste Skill",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Taste Skill gives your AI coding agent good taste. Open-source skill files that stop Cursor, Claude Code, Codex & more from generating generic, ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Taste Skill"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read the docs",
+         "description": "Install Taste Skill. Learn how the v2 skill reads a brief, the locks ...",
+         "url": "https://www.tasteskill.dev/docs",
+         "domain": "www.tasteskill.dev"
+        },
+        {
+         "type": "link_element",
+         "title": "Prompt Guide",
+         "description": "Two ready-to-paste prompts for taste-skill v2 (experimental ...",
+         "url": "https://www.tasteskill.dev/guide",
+         "domain": "www.tasteskill.dev"
+        },
+        {
+         "type": "link_element",
+         "title": "Changelog",
+         "description": "Version history and release notes for Taste Skill, the anti-slop ...",
+         "url": "https://www.tasteskill.dev/changelog",
+         "domain": "www.tasteskill.dev"
+        },
+        {
+         "type": "link_element",
+         "title": "Blog",
+         "description": "Notes and threads from LexnLin on X about Taste Skill, frontend ...",
+         "url": "https://www.tasteskill.dev/blog",
+         "domain": "www.tasteskill.dev"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "domain": "github.com",
+       "title": "taste-skill/skills/taste-skill/SKILL.md at main",
+       "url": "https://github.com/Leonxlnx/taste-skill/blob/main/skills/taste-skill/SKILL.md",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://github.com › Leonxlnx › taste-skill › blob › SKILL",
+       "website_name": "GitHub",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Agent skills that give coding agents taste : art direction, reference images and a browser check instead of generic AI pages ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Agent skills that give coding agents taste"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[5]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "**Taste Skill** is an open-source anti-slop frontend framework and collection of `SKILL.md` rules that train AI coding agents to build custom, non-generic user interfaces.[[1]](https://www.tasteskill.dev/)[[2]](https://www.youtube.com/watch?v=VdfhAOE5aSc)[[3]](https://daily.dev/posts/frigmqy2v)\n\n### Key Features\n\n- **Anti-Slop Rules:** Explicitly bans generic AI design tropes like purple-blue gradients, centered three-card feature grids, excessive em-dashes, and generic Inter font pairings.[[1]](https://www.tasteskill.dev/guide)[[2]](https://www.youtube.com/watch?v=wEGVxJjlpkk)[[3]](https://www.linkedin.com/posts/vaibhavsisinty_this-one-skill-will-make-everything-you-build-activity-7490653178611408896-ig2Q)\n- **Design Dials:** Controls output using parameters for design variance, motion intensity, and visual density.[[1]](https://www.youtube.com/watch?v=VdfhAOE5aSc)\n- **Real-World Reference Extraction:** Uses scripts to parse real-world design files and open-source imagery (from Wikimedia, Met, or Openverse) instead of flattening looks into vague text summaries.[[1]](https://github.com/leonxlnx/taste-skill)[[2]](https://agenticskills.io/skills/taste-skill)\n- **Specialized Variants:** Offers multiple modular skills including `minimalist-skill`, `brutalist-skill`, `soft-skill` , and `gpt-tasteskill`.[[1]](https://www.tasteskill.dev/)[[2]](https://www.tasteskill.dev/docs)\n\n### Installation & Compatibility\n\n- **Installation Command:** Run `npx skills add https://github.com/Leonxlnx/taste-skill` in your terminal.\n- **Supported Agents:** Works with Cursor, Claude Code, Codex, Windsurf, GitHub Copilot, Gemini CLI, v0, and Lovable.\n- **Framework Agnostic:** Compatible with React, Vue, Svelte, Next.js, or plain HTML.[[1]](https://github.com/leonxlnx/taste-skill)[[2]](https://www.tasteskill.dev/docs)[[3]](https://daily.dev/posts/frigmqy2v)[[4]](https://www.youtube.com/watch?v=wEGVxJjlpkk)[[5]](https://www.tasteskill.dev/guide)[[6]](https://www.youtube.com/watch?v=VdfhAOE5aSc)\n\nYou can explore the project documentation on the [Taste Skill Official Website](https://www.tasteskill.dev/) or review the source repository via [Taste Skill GitHub](https://github.com/leonxlnx/taste-skill).[[1]](https://www.tasteskill.dev/)[[2]](https://github.com/leonxlnx/taste-skill)Are you trying to set this up with a specific AI coding agent like **Claude Code** or **Cursor** ? Let me know and I can share the exact setup workflow.",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Taste Skill is an open-source anti-slop frontend framework and collection of SKILL.md rules that train AI coding agents to build custom, non-generic user interfaces.",
+         "markdown": "**Taste Skill** is an open-source anti-slop frontend framework and collection of `SKILL.md` rules that train AI coding agents to build custom, non-generic user interfaces.[[1]](https://www.tasteskill.dev/)[[2]](https://www.youtube.com/watch?v=VdfhAOE5aSc)[[3]](https://daily.dev/posts/frigmqy2v)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Taste Skill",
+           "domain": "www.tasteskill.dev",
+           "url": "https://www.tasteskill.dev/",
+           "title": "Taste Skill | The Anti-Slop Frontend Framework for AI Agents",
+           "text": "Escape the. AI slop. Taste Skill gives your agent real rules for typography, spacing, color, layout and motion, so it stops reachi..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "YouTube",
+           "domain": "www.youtube.com",
+           "url": "https://www.youtube.com/watch?v=VdfhAOE5aSc&t=0",
+           "title": "Taste Skill in Claude Code | Stop AI-Generated Slop",
+           "text": "Taste Skill in Claude Code | Stop AI-Generated Slop have you noticed every AI generated website looks exactly the same purple grad..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "daily.dev",
+           "domain": "daily.dev",
+           "url": "https://daily.dev/posts/frigmqy2v",
+           "title": "Taste Skill | The Anti-Slop Frontend Framework",
+           "text": "Taste Skill | The Anti-Slop Frontend Framework From tasteskill.dev• Jun 18 •3m read time Taste Skill is an open-source collection ..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": "Key Features",
+         "text": "Anti-Slop Rules: Explicitly bans generic AI design tropes like purple-blue gradients, centered three-card feature grids, excessive em-dashes, and generic Inter font pairings. Design Dials: Controls output using parameters for design variance, motion intensity, and visual density. Real-World Reference Extraction: Uses scripts to parse real-world design files and open-source imagery (from Wikimedia, Met, or Openverse) instead of flattening looks into vague text summaries. Specialized Variants: Offers multiple modular skills including minimalist-skill, brutalist-skill, soft-skill, and gpt-tasteskill.",
+         "markdown": "- **Anti-Slop Rules:** Explicitly bans generic AI design tropes like purple-blue gradients, centered three-card feature grids, excessive em-dashes, and generic Inter font pairings.[[1]](https://www.tasteskill.dev/guide)[[2]](https://www.youtube.com/watch?v=wEGVxJjlpkk)[[3]](https://www.linkedin.com/posts/vaibhavsisinty_this-one-skill-will-make-everything-you-build-activity-7490653178611408896-ig2Q)\n- **Design Dials:** Controls output using parameters for design variance, motion intensity, and visual density.[[1]](https://www.youtube.com/watch?v=VdfhAOE5aSc)\n- **Real-World Reference Extraction:** Uses scripts to parse real-world design files and open-source imagery (from Wikimedia, Met, or Openverse) instead of flattening looks into vague text summaries.[[1]](https://github.com/leonxlnx/taste-skill)[[2]](https://agenticskills.io/skills/taste-skill)\n- **Specialized Variants:** Offers multiple modular skills including `minimalist-skill`, `brutalist-skill`, `soft-skill` , and `gpt-tasteskill`.[[1]](https://www.tasteskill.dev/)[[2]](https://www.tasteskill.dev/docs)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Taste Skill",
+           "domain": "www.tasteskill.dev",
+           "url": "https://www.tasteskill.dev/guide",
+           "title": "Prompt Guide | Taste Skill",
+           "text": "Setup: Load taste-skill v2 via `npx skills add https://github.com/Leonxlnx/taste-skill --skill \"design-taste-frontend\"` once per s..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "YouTube",
+           "domain": "www.youtube.com",
+           "url": "https://www.youtube.com/watch?v=wEGVxJjlpkk&t=0",
+           "title": "Taste Skill — Stops AI From Building Generic Slop Frontends",
+           "text": "Taste Skill — Stops AI From Building Generic Slop Frontends taste skill a collection of skill md files that gives cursor clawed co..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "LinkedIn",
+           "domain": "www.linkedin.com",
+           "url": "https://www.linkedin.com/posts/vaibhavsisinty_this-one-skill-will-make-everything-you-build-activity-7490653178611408896-ig2Q",
+           "title": "Taste Skill Revolutionizes AI Code Generation with Selective Design",
+           "text": "Taste Skill Revolutionizes AI Code Generation with Selective Design | Vaibhav Sisinty posted on the topic | LinkedIn Video Player ..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "YouTube",
+           "domain": "www.youtube.com",
+           "url": "https://www.youtube.com/watch?v=VdfhAOE5aSc&t=0",
+           "title": "Taste Skill in Claude Code | Stop AI-Generated Slop",
+           "text": "Taste Skill in Claude Code | Stop AI-Generated Slop have you noticed every AI generated website looks exactly the same purple gradient hero centered headline three"
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "GitHub",
+           "domain": "github.com",
+           "url": "https://github.com/leonxlnx/taste-skill",
+           "title": "GitHub - Leonxlnx/taste-skill: Agent skills that give coding agents taste ...",
+           "text": "Sponsors. ... * Taste Skill is an Agent Skill that makes coding agents design websites and app screens instead of assembling the a..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "AgenticSkills",
+           "domain": "agenticskills.io",
+           "url": "https://agenticskills.io/skills/taste-skill",
+           "title": "Taste Skill — AI Agent Skill by Leonxlnx | AgenticSkills",
+           "text": "Taste Skill. ... Ships as `design-taste-frontend` upstream. Built for landing pages, portfolios, and redesigns: the agent reads th..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Taste Skill",
+           "domain": "www.tasteskill.dev",
+           "url": "https://www.tasteskill.dev/",
+           "title": "Taste Skill | The Anti-Slop Frontend Framework for AI Agents",
+           "text": "Escape the. AI slop. Taste Skill gives your agent real rules for typography, spacing, color, layout and motion, so it stops reaching for the same template every ti..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Taste Skill",
+           "domain": "www.tasteskill.dev",
+           "url": "https://www.tasteskill.dev/docs",
+           "title": "Documentation | Taste Skill",
+           "text": "Installation: `npx skills add https://github.com/Leonxlnx/taste-skill` (pulls v2 experimental default; supports v1, full bundles, ..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": "Installation & Compatibility",
+         "text": "Installation Command: Run npx skills add https://github.com/Leonxlnx/taste-skill in your terminal. Supported Agents: Works with Cursor, Claude Code, Codex, Windsurf, GitHub Copilot, Gemini CLI, v0, and Lovable. Framework Agnostic: Compatible with React, Vue, Svelte, Next.js, or plain HTML.",
+         "markdown": "- **Installation Command:** Run `npx skills add https://github.com/Leonxlnx/taste-skill` in your terminal.\n- **Supported Agents:** Works with Cursor, Claude Code, Codex, Windsurf, GitHub Copilot, Gemini CLI, v0, and Lovable.\n- **Framework Agnostic:** Compatible with React, Vue, Svelte, Next.js, or plain HTML.[[1]](https://github.com/leonxlnx/taste-skill)[[2]](https://www.tasteskill.dev/docs)[[3]](https://daily.dev/posts/frigmqy2v)[[4]](https://www.youtube.com/watch?v=wEGVxJjlpkk)[[5]](https://www.tasteskill.dev/guide)[[6]](https://www.youtube.com/watch?v=VdfhAOE5aSc)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "GitHub",
+           "domain": "github.com",
+           "url": "https://github.com/leonxlnx/taste-skill",
+           "title": "GitHub - Leonxlnx/taste-skill: Agent skills that give coding agents taste ...",
+           "text": "Sponsors. ..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Taste Skill",
+           "domain": "www.tasteskill.dev",
+           "url": "https://www.tasteskill.dev/docs",
+           "title": "Documentation | Taste Skill",
+           "text": "Installation: `npx skills add https://github.com/Leonxlnx/taste-skill` (pulls v2 experimental default; supports v1, full bundles, and Codex via `-a codex`). Compat..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "daily.dev",
+           "domain": "daily.dev",
+           "url": "https://daily.dev/posts/frigmqy2v",
+           "title": "Taste Skill | The Anti-Slop Frontend Framework",
+           "text": "Taste Skill | The Anti-Slop Frontend Framework From tasteskill.dev• Jun 18 •3m read time Taste Skill is an open-source collection of SKILL.md files designed to imp..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "YouTube",
+           "domain": "www.youtube.com",
+           "url": "https://www.youtube.com/watch?v=wEGVxJjlpkk&t=0",
+           "title": "Taste Skill — Stops AI From Building Generic Slop Frontends",
+           "text": "Taste Skill — Stops AI From Building Generic Slop Frontends taste skill a collection of skill md files that gives cursor clawed code codecs. and any other AI codin"
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Taste Skill",
+           "domain": "www.tasteskill.dev",
+           "url": "https://www.tasteskill.dev/guide",
+           "title": "Prompt Guide | Taste Skill",
+           "text": "Setup: Load taste-skill v2 via `npx skills add https://github.com/Leonxlnx/taste-skill --skill \"design-taste-frontend\"` once per session. Greenfield Prompt: Declar..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "YouTube",
+           "domain": "www.youtube.com",
+           "url": "https://www.youtube.com/watch?v=VdfhAOE5aSc&t=0",
+           "title": "Taste Skill in Claude Code | Stop AI-Generated Slop",
+           "text": "Taste Skill in Claude Code | Stop AI-Generated Slop have you noticed every AI generated website looks exactly the same purple gradient hero centered headline three"
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "You can explore the project documentation on the Taste Skill Official Website or review the source repository via Taste Skill GitHub.",
+         "markdown": "You can explore the project documentation on the [Taste Skill Official Website](https://www.tasteskill.dev/) or review the source repository via [Taste Skill GitHub](https://github.com/leonxlnx/taste-skill).[[1]](https://www.tasteskill.dev/)[[2]](https://github.com/leonxlnx/taste-skill)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "Taste Skill Official Website",
+           "description": null,
+           "url": "https://www.tasteskill.dev/",
+           "domain": "www.tasteskill.dev"
+          },
+          {
+           "type": "link_element",
+           "title": "Taste Skill GitHub",
+           "description": null,
+           "url": "https://github.com/leonxlnx/taste-skill",
+           "domain": "github.com"
+          }
+         ],
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Taste Skill",
+           "domain": "www.tasteskill.dev",
+           "url": "https://www.tasteskill.dev/",
+           "title": "Taste Skill | The Anti-Slop Frontend Framework for AI Agents",
+           "text": "Escape the. AI slop. Taste Skill gives your agent real rules for typography, spacing, color, layout and motion, so it stops reaching for the same template every ti..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "GitHub",
+           "domain": "github.com",
+           "url": "https://github.com/leonxlnx/taste-skill",
+           "title": "GitHub - Leonxlnx/taste-skill: Agent skills that give coding agents taste ...",
+           "text": "Sponsors. ..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Are you trying to set this up with a specific AI coding agent like Claude Code or Cursor ? Let me know and I can share the exact setup workflow.",
+         "markdown": "Are you trying to set this up with a specific AI coding agent like **Claude Code** or **Cursor** ? Let me know and I can share the exact setup workflow.",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[7]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "Issue with AI agent taste skills : r/UI_Design",
+       "url": "https://www.reddit.com/r/UI_Design/comments/1tnqbcw/issue_with_ai_agent_taste_skills/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "10+ comments  ·  4 months ago",
+       "website_name": "Reddit · r/UI_Design",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Most \"taste skills\" run a full on review and gets the agent to apply fixes to the whole page or even all the pages on the project - which ends ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Most \"taste skills\" run a full on review"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.reddit.com/r/UI_Design/comments/1tnqbcw/issue_with_ai_agent_taste_skills/#:~:text=Most%20%22taste%20skills%22%20run%20a,results%20to%20thousands%20of%20users.",
+         "domain": "www.reddit.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+       "domain": "skillsllm.com",
+       "title": "taste-skill - Claude Code Skill (100.1k★)",
+       "url": "https://skillsllm.com/skill/taste-skill",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://skillsllm.com › AI Agents",
+       "website_name": "SkillsLLM",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "May 1, 2026 — Taste Skill is an Agent Skill that makes coding agents design websites and app screens instead of assembling the average landing page. Read more",
+       "pre_snippet": "05/01/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Taste Skill"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://skillsllm.com/skill/taste-skill#:~:text=Taste%20Skill%20is%20an%20Agent,assembling%20the%20average%20landing%20page.",
+         "domain": "skillsllm.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-05-01 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "Taste Skill — Stops AI From Building Generic Slop Frontends",
+       "url": "https://www.youtube.com/watch?v=wEGVxJjlpkk",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "8.1K+ views  ·  4 months ago",
+       "website_name": "YouTube · Prism Labs",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": "Taste Skill is a collection of SKILL.md files that gives Cursor, Claude Code, Codex, and other AI coding agents actual taste.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Taste Skill"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-05-27 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+       "domain": "daily.dev",
+       "title": "Taste Skill | The Anti-Slop Frontend Framework",
+       "url": "https://daily.dev/posts/frigmqy2v",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://daily.dev › Dev World",
+       "website_name": "daily.dev",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Sep 21, 2026 — Taste Skill is an open-source collection of SKILL.md files designed to improve the design quality of AI-generated frontends.",
+       "pre_snippet": "09/21/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Taste Skill"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-09-21 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+       "domain": "sourceforge.net",
+       "title": "Taste Skill download",
+       "url": "https://sourceforge.net/projects/taste-skill.mirror/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://sourceforge.net › ... › Agentic AI › AI Agents",
+       "website_name": "SourceForge",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Oct 9, 2026 — Taste Skill is a project focused on structured skill development, likely combining curated content, learning paths, and interactive elements to ... Read more",
+       "pre_snippet": "10/09/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Taste Skill"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://sourceforge.net/projects/taste-skill.mirror/#:~:text=Taste%20Skill%20is%20a%20project,paths%2C%20and%20interactive%20elements%20to",
+         "domain": "sourceforge.net"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-10-09 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Taste-skill Codex",
+        "Taste-Skill Cursor",
+        "How to use taste skill",
+        "Taste skill Claude",
+        "Npx skills add leonxlnx/taste-skill",
+        "Taste-skill github",
+        "Taste skill vs Impeccable",
+        "Taste skill antigravity"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

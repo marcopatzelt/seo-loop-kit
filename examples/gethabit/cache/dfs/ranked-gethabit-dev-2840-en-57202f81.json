@@ -1,0 +1,48 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "0.2353 sec.",
+ "cost": 0.012,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10220855-1430-0381-0000-9a65ba4ffea4",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "0.2276 sec.",
+   "cost": 0.012,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "dataforseo_labs",
+    "google",
+    "ranked_keywords",
+    "live"
+   ],
+   "data": {
+    "api": "dataforseo_labs",
+    "function": "ranked_keywords",
+    "se_type": "google",
+    "location_code": 2840,
+    "language_code": "en",
+    "target": "gethabit.dev",
+    "limit": 100
+   },
+   "result": [
+    {
+     "se_type": "google",
+     "target": "gethabit.dev",
+     "location_code": 2840,
+     "language_code": "en",
+     "total_count": null,
+     "items_count": 0,
+     "metrics": null,
+     "metrics_absolute": null,
+     "items": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,676 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "5.4829 sec.",
+ "cost": 0.002,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10220854-1430-0139-0000-12adecd4309f",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "5.4126 sec.",
+   "cost": 0.002,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "advanced"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "location_code": 2840,
+    "language_code": "en",
+    "keyword": "matt pocock skills",
+    "device": "desktop",
+    "depth": 10,
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "matt pocock skills",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=matt%20pocock%20skills&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-22 08:54:50 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "video",
+      "related_searches"
+     ],
+     "se_results_count": 95,
+     "pages_count": 1,
+     "items_count": 11,
+     "items": [
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "Matt Pocock Tutorials On Agentic Coding/AI are A ...",
+       "url": "https://www.reddit.com/r/ClaudeCode/comments/1v90akt/matt_pocock_tutorials_on_agentic_codingai_are_a/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "30+ comments  ·  2 months ago",
+       "website_name": "Reddit · r/ClaudeCode",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The key skills are definitely codebase-architecture and grill-with-docs . With those plus a ui-mockups skill that builds wildly different user ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "codebase-architecture and grill-with-docs"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://www.reddit.com/r/ClaudeCode/comments/1v90akt/matt_pocock_tutorials_on_agentic_codingai_are_a/#:~:text=The%20key%20skills%20are%20definitely,that%20builds%20wildly%20different%20user",
+         "domain": "www.reddit.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "video",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[4]/div[1]",
+       "items": [
+        {
+         "type": "video_element",
+         "source": "YouTube · Eric Tech",
+         "title": "Matt Pocock's 3 New Skills Close the AI Coding Loop",
+         "timestamp": "2026-10-21 08:54:49 +00:00",
+         "url": "https://www.youtube.com/watch?v=1MNSJhCGMLY"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube · Matt Pocock",
+         "title": "mattpocock/skills: A complete AI Coding workflow, end-to-end",
+         "timestamp": "2026-07-16 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=M6mYodf0dJM"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube · Matt Pocock",
+         "title": "New Skills! v1.3 brings /pr, /implement-spec, and /retro",
+         "timestamp": "2026-10-08 08:54:49 +00:00",
+         "url": "https://www.youtube.com/watch?v=BsJGo1wFTvQ"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube · The Pragmatic Engineer",
+         "title": "AI Skills with Matt Pocock",
+         "timestamp": "2026-09-22 08:54:49 +00:00",
+         "url": "https://www.youtube.com/watch?v=4DhcSPkEbwI"
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "tosea.ai",
+       "title": "How to Use Matt Pocock's Skills for Claude Code",
+       "url": "https://tosea.ai/blog/matt-pocock-skills-claude-code-guide",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://tosea.ai › Blog",
+       "website_name": "Tosea.ai",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Apr 26, 2026 — How to Use Matt Pocock's Skills for Claude Code: A Complete Guide · Planning and Design Skills · Development Skills · Tooling and Safety Skills. Read more",
+       "pre_snippet": "04/26/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Planning and Design Skills"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://tosea.ai/blog/matt-pocock-skills-claude-code-guide#:~:text=How%20to%20Use%20Matt%20Pocock's,Claude%20Code%3A%20A%20Complete%20Guide&text=Planning%20and%20Design%20Skills&text=Development%20Skills&text=Tooling%20and%20Safety%20Skills",
+         "domain": "tosea.ai"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-04-26 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+       "domain": "github.com",
+       "title": "thangchung/mattpocock-skills: Skills for Real Engineers. ...",
+       "url": "https://github.com/thangchung/mattpocock-skills",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://github.com › thangchung › mattpocock-skills",
+       "website_name": "GitHub",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "My agent skills that I use every day to do real engineering - not vibe coding. Developing real applications is hard. Approaches like GSD, BMAD, and Spec-Kit ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "My agent skills that I use every day to do real engineering"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://github.com/thangchung/mattpocock-skills#:~:text=My%20agent%20skills%20that%20I,help%20by%20owning%20the%20process.",
+         "domain": "github.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "![The Two Matt Pocock Skills I Use in Almost Every AI Coding ...](https://api.dataforseo.com/cdn/i/10220854-1430-0139-0000-12adecd4309f:4)\nMatt Pocock created [mattpocock/skills](https://github.com/mattpocock/skills), `an open-source collection of AI agent prompts, markdown files, and slash commands designed for real software engineering workflows rather than casual \"vibe coding\"`.[[1]](https://www.aihero.dev/skills)[[2]](https://www.youtube.com/shorts/HYQBYWY1pns)\n\nYou can install the full set using Node.js:\n\n```bash\nnpx skills@latest add mattpocock/skills\n```\n\n\n\n---\n\n### Core Engineering & Workflow Skills\n\n- **`ask-matt`** : Acts as a router to help you select which skill or flow fits your current engineering task.\n- **`grill-with-docs`** : Interviews you relentlessly to shape requirements, sharpens terminology, and updates your project's `GLOSSARY.md` and Architecture Decision Records (`ADRs`).\n- **`to-spec`** : Converts ongoing conversation context into a formal software specification and pushes it to your issue tracker.\n- **`to-tickets`** : Breaks down a spec into manageable, incremental implementation tickets designed to stay inside a model's low-token \"smart zone\".\n- **`triage`** : Moves issues through a structured state machine of triage roles and labels (`needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`).\n- **`improve-codebase-architecture`** : Scans a codebase for structural improvements, generates a visual HTML report, and lets you drill down into architectural fixes.\n- **`setup-matt-pocock-skills`** : Configures your repository once (issue tracker, triage labels, and domain doc layout).[[1]](https://github.com/mattpocock/skills)[[2]](https://www.aihero.dev/skills-ask-matt)[[3]](https://newsletter.pragmaticengineer.com/p/ai-skills-with-matt-pocock)[[4]](https://www.youtube.com/watch?v=1MNSJhCGMLY)[[5]](https://blog.alexrusin.com/matt-pocock-skills-main-flow/)[[6]](https://www.aihero.dev/skills-setup-matt-pocock-skills)\n\n\n\n---\n\n### Shaping & Reference Skills\n\n- **Shaping & Planning**: `/wayfinder`, `/prototype`, `/research`, `/grill-me` \n- **Engineering & Coding**: `/diagnosing-bugs`, `/wizard`, `/implement-spec`, `/triage` \n- **Productivity & Teaching**: `/teach`, `/handoff`, `/to-questionnaire`, `/wait-what`, `/writing-for-agents` \n- **Reference & Architecture**: `/pr`, `/codebase-design`, `/domain-modeling`, `/grilling`, `/tdd` [[1]](https://newsletter.pragmaticengineer.com/p/ai-skills-with-matt-pocock)[[2]](https://www.aihero.dev/skills)[[3]](https://www.aihero.dev/skills-teach)\n\nWatch a walkthrough of how Matt Pocock's AI agent skills work end-to-end:\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdLp8tH_PKnV31Lqo47Hu2Xg88a32WBPQt_4nhPWW_KOeNtaNN)\n3m\n[](https://www.youtube.com/watch?v=M6mYodf0dJM&t=44) mattpocock/skills: A complete AI Coding workflow, end-to-end 696K views  · 3 months ago![](https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&amp;client=AIM&amp;size=16&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL)\nYouTube · Matt Pocock\n\nIf you'd like, let me know:\n\n- Which **coding agent** you are using (such as Claude Code, Cursor, or Copilot)\n- What **specific coding task or problem** you are trying to solve right now\n\nI can recommend the exact skill or workflow command to start with.",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Matt Pocock created mattpocock/skills, an open-source collection of AI agent prompts, markdown files, and slash commands designed for real software engineering workflows rather than casual \"vibe coding\".",
+         "markdown": "![The Two Matt Pocock Skills I Use in Almost Every AI Coding ...](https://api.dataforseo.com/cdn/i/10220854-1430-0139-0000-12adecd4309f:2)\nMatt Pocock created [mattpocock/skills](https://github.com/mattpocock/skills), `an open-source collection of AI agent prompts, markdown files, and slash commands designed for real software engineering workflows rather than casual \"vibe coding\"`.[[1]](https://www.aihero.dev/skills)[[2]](https://www.youtube.com/shorts/HYQBYWY1pns)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "mattpocock/skills",
+           "description": null,
+           "url": "https://github.com/mattpocock/skills",
+           "domain": "github.com"
+          }
+         ],
+         "images": [
+          {
+           "type": "images_element",
+           "alt": "The Two Matt Pocock Skills I Use in Almost Every AI Coding ...",
+           "url": null,
+           "image_url": "https://api.dataforseo.com/cdn/i/10220854-1430-0139-0000-12adecd4309f:3"
+          }
+         ],
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "AI Hero",
+           "domain": "www.aihero.dev",
+           "url": "https://www.aihero.dev/skills",
+           "title": "AI Skills for Real Engineers",
+           "text": "Installation: npx skills@latest add mattpocock/skills (MIT license, works with Claude Code, Cursor, Codex, Copilot, Amp). Core Flo..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "YouTube",
+           "domain": "www.youtube.com",
+           "url": "https://www.youtube.com/shorts/HYQBYWY1pns",
+           "title": "The Agent Skills Matt Pocock Uses Every Day",
+           "text": "The Agent Skills Matt Pocock Uses Every Day these are Matt Pacock's agent skills for real engineering. not vibe coding With over a..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "You can install the full set using Node.js:",
+         "markdown": "You can install the full set using Node.js:",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "bash npx skills@latest add mattpocock/skills Use code with caution.",
+         "markdown": "```bash\nnpx skills@latest add mattpocock/skills\n```",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": "Core Engineering & Workflow Skills",
+         "text": "ask-matt : Acts as a router to help you select which skill or flow fits your current engineering task. grill-with-docs : Interviews you relentlessly to shape requirements, sharpens terminology, and updates your project's GLOSSARY.md and Architecture Decision Records ( ADRs ). to-spec : Converts ongoing conversation context into a formal software specification and pushes it to your issue tracker. to-tickets : Breaks down a spec into manageable, incremental implementation tickets designed to stay inside a model's low-token \"smart zone\". triage : Moves issues through a structured state machine of triage roles and labels ( needs-triage, needs-info, ready-for-agent, ready-for-human, wontfix ). improve-codebase-architecture : Scans a codebase for structural improvements, generates a visual HTML report, and lets you drill down into architectural fixes. setup-matt-pocock-skills : Configures your repository once (issue tracker, triage labels, and domain doc layout).",
+         "markdown": "- **`ask-matt`** : Acts as a router to help you select which skill or flow fits your current engineering task.\n- **`grill-with-docs`** : Interviews you relentlessly to shape requirements, sharpens terminology, and updates your project's `GLOSSARY.md` and Architecture Decision Records (`ADRs`).\n- **`to-spec`** : Converts ongoing conversation context into a formal software specification and pushes it to your issue tracker.\n- **`to-tickets`** : Breaks down a spec into manageable, incremental implementation tickets designed to stay inside a model's low-token \"smart zone\".\n- **`triage`** : Moves issues through a structured state machine of triage roles and labels (`needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`).\n- **`improve-codebase-architecture`** : Scans a codebase for structural improvements, generates a visual HTML report, and lets you drill down into architectural fixes.\n- **`setup-matt-pocock-skills`** : Configures your repository once (issue tracker, triage labels, and domain doc layout).[[1]](https://github.com/mattpocock/skills)[[2]](https://www.aihero.dev/skills-ask-matt)[[3]](https://newsletter.pragmaticengineer.com/p/ai-skills-with-matt-pocock)[[4]](https://www.youtube.com/watch?v=1MNSJhCGMLY)[[5]](https://blog.alexrusin.com/matt-pocock-skills-main-flow/)[[6]](https://www.aihero.dev/skills-setup-matt-pocock-skills)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "GitHub",
+           "domain": "github.com",
+           "url": "https://github.com/mattpocock/skills",
+           "title": "Skills for Real Engineers. Straight from my .agents directory. · GitHub",
+           "text": "Model-invoked Engineering Skills I use daily for code work. User-invoked ask-matt: Ask which skill or flow fits your situation. A ..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "AI Hero",
+           "domain": "www.aihero.dev",
+           "url": "https://www.aihero.dev/skills-ask-matt",
+           "title": "The /ask-matt Skill",
+           "text": "Install the skills All agents Claude Code Installs the whole set. Then type /ask-matt in your coding agent. Update with npx skills..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "The Pragmatic Engineer",
+           "domain": "newsletter.pragmaticengineer.com",
+           "url": "https://newsletter.pragmaticengineer.com/p/ai-skills-with-matt-pocock",
+           "title": "AI Skills with Matt Pocock - by Gergely Orosz",
+           "text": "AI Skills: Matt Pocock discusses planning and building software using AI agents and strategic coding. Agent Skills: grill-me (rele..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "YouTube",
+           "domain": "www.youtube.com",
+           "url": "https://www.youtube.com/watch?v=1MNSJhCGMLY",
+           "title": "YouTube",
+           "text": "if you're currently using Matt Pocott's skill here to building application with AI then you got to check out this video because re..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "blog.alexrusin.com",
+           "domain": "blog.alexrusin.com",
+           "url": "https://blog.alexrusin.com/matt-pocock-skills-main-flow/",
+           "title": "Matt Pocock Skills: The Main Flow Explained",
+           "text": "This walkthrough covers the core sequence you need to get started — not the experimental extras, just the path every piece of real..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "AI Hero",
+           "domain": "www.aihero.dev",
+           "url": "https://www.aihero.dev/skills-setup-matt-pocock-skills",
+           "title": "The /setup-matt-pocock-skills Skill - AI Hero",
+           "text": "* What it does. setup-matt-pocock-skills answers three questions about one repo: where issues live, what the triage labels are cal..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": "Shaping & Reference Skills",
+         "text": "Shaping & Planning : /wayfinder, /prototype, /research, /grill-me Engineering & Coding : /diagnosing-bugs, /wizard, /implement-spec, /triage Productivity & Teaching : /teach, /handoff, /to-questionnaire, /wait-what, /writing-for-agents Reference & Architecture : /pr, /codebase-design, /domain-modeling, /grilling, /tdd",
+         "markdown": "- **Shaping & Planning**: `/wayfinder`, `/prototype`, `/research`, `/grill-me` \n- **Engineering & Coding**: `/diagnosing-bugs`, `/wizard`, `/implement-spec`, `/triage` \n- **Productivity & Teaching**: `/teach`, `/handoff`, `/to-questionnaire`, `/wait-what`, `/writing-for-agents` \n- **Reference & Architecture**: `/pr`, `/codebase-design`, `/domain-modeling`, `/grilling`, `/tdd` [[1]](https://newsletter.pragmaticengineer.com/p/ai-skills-with-matt-pocock)[[2]](https://www.aihero.dev/skills)[[3]](https://www.aihero.dev/skills-teach)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "The Pragmatic Engineer",
+           "domain": "newsletter.pragmaticengineer.com",
+           "url": "https://newsletter.pragmaticengineer.com/p/ai-skills-with-matt-pocock",
+           "title": "AI Skills with Matt Pocock - by Gergely Orosz",
+           "text": "AI Skills: Matt Pocock discusses planning and building software using AI agents and strategic coding. Agent Skills: grill-me (rele..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "AI Hero",
+           "domain": "www.aihero.dev",
+           "url": "https://www.aihero.dev/skills",
+           "title": "AI Skills for Real Engineers",
+           "text": "Installation: npx skills@latest add mattpocock/skills (MIT license, works with Claude Code, Cursor, Codex, Copilot, Amp). Core Flo..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "AI Hero",
+           "domain": "www.aihero.dev",
+           "url": "https://www.aihero.dev/skills-teach",
+           "title": "The /teach Skill",
+           "text": "The /teach Skill Learn a topic across many sessions that build on each other. Copy page Share Next page Install this skill $ npx s..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_video_element",
+         "position": "left",
+         "title": "mattpocock/skills: A complete AI Coding workflow, end-to-end",
+         "snippet": "3m",
+         "url": "https://www.youtube.com/watch?v=M6mYodf0dJM&t=44",
+         "domain": "www.youtube.com",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdLp8tH_PKnV31Lqo47Hu2Xg88a32WBPQt_4nhPWW_KOeNtaNN",
+         "source": "YouTube",
+         "date": "3 months ago",
+         "timestamp": "2026-07-22 08:54:49 +00:00"
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Watch a walkthrough of how Matt Pocock's AI agent skills work end-to-end: 3m mattpocock/skills: A complete AI Coding workflow, end-to-end 696K views · 3 months ago YouTube · Matt Pocock",
+         "markdown": "Watch a walkthrough of how Matt Pocock's AI agent skills work end-to-end:\n\n![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdLp8tH_PKnV31Lqo47Hu2Xg88a32WBPQt_4nhPWW_KOeNtaNN)\n3m\n[](https://www.youtube.com/watch?v=M6mYodf0dJM&t=44) mattpocock/skills: A complete AI Coding workflow, end-to-end 696K views  · 3 months ago![](https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&amp;client=AIM&amp;size=16&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL)\nYouTube · Matt Pocock",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "If you'd like, let me know:Which coding agent you are using (such as Claude Code, Cursor, or Copilot)\nWhat specific coding task or problem you are trying to solve right now\nI can recommend the exact skill or workflow command to start with.",
+         "markdown": "If you'd like, let me know:\n\n- Which **coding agent** you are using (such as Claude Code, Cursor, or Copilot)\n- What **specific coding task or problem** you are trying to solve right now\n\nI can recommend the exact skill or workflow command to start with.",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]",
+       "domain": "daily.dev",
+       "title": "So I tried Matt's skills...",
+       "url": "https://daily.dev/posts/so-i-tried-matt-s-skills--0f5yy5jlx",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://daily.dev · Aug 19, 2026",
+       "website_name": "daily.dev · Theo - t3․gg",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": "The reviewer tests standout skills like unslop (removes AI writing tells and adds human voice), grilling/grill-me (relentless interview-style ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "unslop"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-08-19 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+       "domain": "ai.plainenglish.io",
+       "title": "I Tested Matt Pocock's Claude Code Skills",
+       "url": "https://ai.plainenglish.io/i-tested-matt-pococks-claude-code-skills-and-the-lesson-was-not-what-i-expected-9f2aceca59c6",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://ai.plainenglish.io › i-tested-matt-pococks-claude-...",
+       "website_name": "Artificial Intelligence in Plain English",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Aug 19, 2026 — I tested Matt Pocock's Claude Code skills and found the real value: better planning, TDD, handoffs, specs, and architecture discipline.",
+       "pre_snippet": "08/19/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "better planning, TDD, handoffs, specs, and architecture discipline"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-08-19 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+       "domain": "explainx.ai",
+       "title": "Matt Pocock's agent skills for real engineers: TDD,",
+       "url": "https://explainx.ai/blog/matt-pocock-agent-skills-real-engineers",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://explainx.ai › Blog › Agent Skills",
+       "website_name": "explainx.ai",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Apr 27, 2026 — Summary. mattpocock/skills is Matt Pocock's MIT-licensed library for real engineering: four failure modes, user-invoked orchestrators and model- ... Read more",
+       "pre_snippet": "04/27/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Matt Pocock's MIT-licensed library for real engineering"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://explainx.ai/blog/matt-pocock-agent-skills-real-engineers#:~:text=Summary,stars%2C%20v1.0.1%20with%20progressive%20disclosure.",
+         "domain": "explainx.ai"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-04-27 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[15]/div[1]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "I Open-Sourced My Own AFK Software Factory",
+       "url": "https://www.youtube.com/watch?v=E5-QK3CDVQM",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "249.4K+ views  ·  5 months ago",
+       "website_name": "YouTube · Matt Pocock",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": "Learn how to build AI coding agents that run completely AFK in isolated sandboxes. In this video, I introduce Sandcastle, a TypeScript ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Learn how to build AI coding agents that run completely AFK"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-04-30 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]/div[1]",
+       "domain": "explainx.substack.com",
+       "title": "Matt Pocock's 20+ AI Skills That Fix Vibe Coding",
+       "url": "https://explainx.substack.com/p/matt-pococks-20-ai-skills-that-fix",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "5 months ago",
+       "website_name": "Explainx Substack · Explainx Substack",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": "In this video, we look at Matt Pocock's open-source AI agent skills on GitHub that fix AI coding slop. These AI skills improve coding ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Matt Pocock's open-source AI agent skills on"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-05-22 08:54:49 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Matt-pocock-skills install",
+        "Superpowers vs Matt Pocock skills",
+        "Matt Pocock skills Reddit",
+        "Matt Pocock skills grill-me",
+        "Matt-pocock-skills GitHub",
+        "Matt Pocock-skills Codex",
+        "Matt Pocock skills Cursor",
+        "Matt Pocock skills teach"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+# seo-loop-kit config. Copy to loops/seo-loop/config.yaml and edit.
+# No keys in here. Keys come from the environment only (see README).
+
+site_url: https://example.com
+
+# Paths. `root` is relative to this file; every other path is relative to `root`.
+root: ../..
+content_dir: src/content/guides     # the only place pages are written
+loop_dir: loops/seo-loop            # board.md, runs/, cache/, dfs-log.md
+page_extension: .md
+build_command: npm run build        # empty = the build check is recorded as skipped
+copy_rules: ""                      # optional path to your style guide, e.g. docs/copy.md
+
+# One market per config. Never mixed. 2840/en = US, 2826/en = UK, 2276/de = Germany.
+language: English
+location_code: 2840
+language_code: en
+
+# What the loop researches each run (step 02).
+target_keywords:
+  - example keyword one
+  - example keyword two
+track_domain: true                  # also pull ranked keywords for site_url's domain
+
+# Stop rule: whichever comes first.
+budget:
+  max_usd_per_run: 8                # model + DataForSEO
+  max_tasks_per_run: 3
+  max_pages_per_run: 3
+  dataforseo_cap_usd: 0.5           # hard cap for data per run; cached calls cost 0
+
+models:
+  builder: claude-sonnet-5-5
+  critic: claude-opus-5-5
+  advisor: ""                       # e.g. claude-fable-5-1; passed to Claude Code as --advisor
+
+critic:
+  pass_score: 17                    # of 20
+  max_rewrites: 1
+
+verify:
+  after_days: 21
+  gsc_property: ""                  # e.g. sc-domain:example.com; empty = site_url
+  gsc_key_env: GSC_KEY_FILE         # env var holding the path to the service account JSON

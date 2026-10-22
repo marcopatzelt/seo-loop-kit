@@ -1,0 +1,669 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "2.6452 sec.",
+ "cost": 0.002,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10220854-1430-0139-0000-ca101253a1f5",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "2.5473 sec.",
+   "cost": 0.002,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "advanced"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "location_code": 2840,
+    "language_code": "en",
+    "keyword": "ui ux pro max skill",
+    "device": "desktop",
+    "depth": 10,
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "ui ux pro max skill",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=ui%20ux%20pro%20max%20skill&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-22 08:54:58 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "organic",
+      "video",
+      "related_searches"
+     ],
+     "se_results_count": 100,
+     "pages_count": 1,
+     "items_count": 11,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "The **UI/UX Pro Max Skill** is an open-source AI skill created by [Next Level Builder](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) that provides design intelligence to AI coding agents (such as Claude Code or OpenCode) to prevent generic, template-like AI interfaces.[[1]](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)[[2]](https://uichemy.com/design-skills/ui-ux-pro-max/)[[3]](https://www.youtube.com/watch?v=Pc27ThkuBPQ)\n\n### Core Features & Database\n\n- **Searchable UI Styles:** Over 79 styles (50+ active), including Glassmorphism, Neumorphism, and Bento Grid.[[1]](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)[[2]](https://mcpmarket.com/tools/skills/ui-ux-pro-max-6)\n- **Industry Reasoning Rules:** 192 product-type reasoning rules covering landing page structures, color moods, and typography pairings.[[1]](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)[[2]](https://uichemy.com/design-skills/ui-ux-pro-max/)\n- **Design System Generator (v2.0):** Automatically analyzes project requirements to build a complete design system (MASTER.md and page overrides) *before* writing code.[[1]](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.md)[[2]](https://www.youtube.com/watch?v=Pc27ThkuBPQ)\n- **Tech Stack Support:** Built-in guidance for 22 major frameworks and libraries, including React, Next.js, Tailwind CSS, Vue, iOS, and Android.[[1]](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)[[2]](https://mcpmarket.com/tools/skills/ui-ux-pro-max-6)\n- **Anti-Pattern Guardrails:** Flags and blocks common design mistakes (such as default \"AI purple/pink gradients\" for corporate or financial apps).[[1]](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)\n\n### How to Install\nYou can add the skill to your workflow via package managers or Claude Code plugins:\n\n- **Claude Code / CLI:** `claude /plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill` or via `npx skills add nextlevelbuilder/ui-ux-pro-max-skill`.\n- **Local / Manual:** Clone or download the repository from the [GitHub - UI/UX Pro Max Skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) page and run its local Python search script (`search.py`).[[1]](https://www.ui-skills.com/skills/nextlevelbuilder/ui-ux-pro-max)[[2]](https://ui-ux-pro-max-skill.com/)[[3]](https://uichemy.com/design-skills/ui-ux-pro-max/)\n\nWould you like help **setting up the skill in your specific AI agent** or **running the design system generator** for a project you are working on?",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "The UI/UX Pro Max Skill is an open-source AI skill created by Next Level Builder that provides design intelligence to AI coding agents (such as Claude Code or OpenCode) to prevent generic, template-like AI interfaces.",
+         "markdown": "The **UI/UX Pro Max Skill** is an open-source AI skill created by [Next Level Builder](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) that provides design intelligence to AI coding agents (such as Claude Code or OpenCode) to prevent generic, template-like AI interfaces.[[1]](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)[[2]](https://uichemy.com/design-skills/ui-ux-pro-max/)[[3]](https://www.youtube.com/watch?v=Pc27ThkuBPQ)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "Next Level Builder",
+           "description": null,
+           "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+           "domain": "github.com"
+          }
+         ],
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "GitHub",
+           "domain": "github.com",
+           "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+           "title": "GitHub - nextlevelbuilder/ui-ux-pro-max-skill: An AI skill that provides design intelligence for building professional UI/UX across multiple platforms. · GitHub",
+           "text": "GitHub - nextlevelbuilder/ui-ux-pro-max-skill: An AI skill that provides design intelligence for building professional UI/UX acros..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "UiChemy",
+           "domain": "uichemy.com",
+           "url": "https://uichemy.com/design-skills/ui-ux-pro-max/",
+           "title": "UI UX Pro Max Skill: Install and Use | UiChemy",
+           "text": "ui-ux-pro-max is an open-source skill from nextlevelbuilder. Its SKILL.md drives a local Python search script over bundled data: 7..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "YouTube",
+           "domain": "www.youtube.com",
+           "url": "https://www.youtube.com/watch?v=Pc27ThkuBPQ",
+           "title": "OpenCode UI/UX Skill: Build 100X Better & Modern Designs (100% Free)",
+           "text": "so if you have been using open code or any coding tool to generate designs. you have probably noticed a pattern every interface lo..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": "Core Features & Database",
+         "text": "Searchable UI Styles: Over 79 styles (50+ active), including Glassmorphism, Neumorphism, and Bento Grid. Industry Reasoning Rules: 192 product-type reasoning rules covering landing page structures, color moods, and typography pairings. Design System Generator (v2.0): Automatically analyzes project requirements to build a complete design system (MASTER.md and page overrides) before writing code. Tech Stack Support: Built-in guidance for 22 major frameworks and libraries, including React, Next.js, Tailwind CSS, Vue, iOS, and Android. Anti-Pattern Guardrails: Flags and blocks common design mistakes (such as default \"AI purple/pink gradients\" for corporate or financial apps).",
+         "markdown": "- **Searchable UI Styles:** Over 79 styles (50+ active), including Glassmorphism, Neumorphism, and Bento Grid.[[1]](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)[[2]](https://mcpmarket.com/tools/skills/ui-ux-pro-max-6)\n- **Industry Reasoning Rules:** 192 product-type reasoning rules covering landing page structures, color moods, and typography pairings.[[1]](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)[[2]](https://uichemy.com/design-skills/ui-ux-pro-max/)\n- **Design System Generator (v2.0):** Automatically analyzes project requirements to build a complete design system (MASTER.md and page overrides) *before* writing code.[[1]](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.md)[[2]](https://www.youtube.com/watch?v=Pc27ThkuBPQ)\n- **Tech Stack Support:** Built-in guidance for 22 major frameworks and libraries, including React, Next.js, Tailwind CSS, Vue, iOS, and Android.[[1]](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)[[2]](https://mcpmarket.com/tools/skills/ui-ux-pro-max-6)\n- **Anti-Pattern Guardrails:** Flags and blocks common design mistakes (such as default \"AI purple/pink gradients\" for corporate or financial apps).[[1]](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "GitHub",
+           "domain": "github.com",
+           "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+           "title": "GitHub - nextlevelbuilder/ui-ux-pro-max-skill: An AI skill that provides design intelligence for building professional UI/UX across multiple platforms. · GitHub",
+           "text": "GitHub - nextlevelbuilder/ui-ux-pro-max-skill: An AI skill that provides design intelligence for building professional UI/UX across multiple platforms. GitHub. ..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "MCP Market",
+           "domain": "mcpmarket.com",
+           "url": "https://mcpmarket.com/tools/skills/ui-ux-pro-max-6",
+           "title": "UI/UX Pro Max - Claude Code Skill for Professional Design - MCP Market",
+           "text": "Provides high-level design intelligence and implementation patterns for creating stunning, professional-grade frontend interfaces."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "UiChemy",
+           "domain": "uichemy.com",
+           "url": "https://uichemy.com/design-skills/ui-ux-pro-max/",
+           "title": "UI UX Pro Max Skill: Install and Use | UiChemy",
+           "text": "ui-ux-pro-max is an open-source skill from nextlevelbuilder. Its SKILL.md drives a local Python search script over bundled data: 7..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "GitHub",
+           "domain": "github.com",
+           "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.md",
+           "title": "ui-ux-pro-max-skill/README.md at main · nextlevelbuilder/ui-ux-pro-max-skill · GitHub",
+           "text": "Overview: AI design intelligence skill for professional UI/UX across multiple platforms and frameworks. Features: 79 searchable UI..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "YouTube",
+           "domain": "www.youtube.com",
+           "url": "https://www.youtube.com/watch?v=Pc27ThkuBPQ",
+           "title": "OpenCode UI/UX Skill: Build 100X Better & Modern Designs (100% Free)",
+           "text": "so if you have been using open code or any coding tool to generate designs. you have probably noticed a pattern every interface lo..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": "How to Install",
+         "text": "You can add the skill to your workflow via package managers or Claude Code plugins:",
+         "markdown": "You can add the skill to your workflow via package managers or Claude Code plugins:",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Claude Code / CLI: claude /plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill or via npx skills add nextlevelbuilder/ui-ux-pro-max-skill. Local / Manual: Clone or download the repository from the GitHub - UI/UX Pro Max Skill page and run its local Python search script ( search.py ).",
+         "markdown": "- **Claude Code / CLI:** `claude /plugin marketplace add nextlevelbuilder/ui-ux-pro-max-skill` or via `npx skills add nextlevelbuilder/ui-ux-pro-max-skill`.\n- **Local / Manual:** Clone or download the repository from the [GitHub - UI/UX Pro Max Skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) page and run its local Python search script (`search.py`).[[1]](https://www.ui-skills.com/skills/nextlevelbuilder/ui-ux-pro-max)[[2]](https://ui-ux-pro-max-skill.com/)[[3]](https://uichemy.com/design-skills/ui-ux-pro-max/)",
+         "links": [
+          {
+           "type": "link_element",
+           "title": "GitHub - UI/UX Pro Max Skill",
+           "description": null,
+           "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+           "domain": "github.com"
+          }
+         ],
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "UI Skills",
+           "domain": "www.ui-skills.com",
+           "url": "https://www.ui-skills.com/skills/nextlevelbuilder/ui-ux-pro-max",
+           "title": "ui-ux-pro-max Skill - nextlevelbuilder",
+           "text": "nextlevelbuilder Comprehensive UI/UX design intelligence with 50+ styles, 97 palettes, and 9 technology stacks for building profes..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "ui-ux-pro-max-skill.com",
+           "domain": "ui-ux-pro-max-skill.com",
+           "url": "https://ui-ux-pro-max-skill.com/",
+           "title": "UI UX Pro Max Skill",
+           "text": "Quick Start with UI UX Pro Max Skill Follow these steps to use UI UX Pro Max Skill and go from prompt to a complete design system ..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "UiChemy",
+           "domain": "uichemy.com",
+           "url": "https://uichemy.com/design-skills/ui-ux-pro-max/",
+           "title": "UI UX Pro Max Skill: Install and Use | UiChemy",
+           "text": "ui-ux-pro-max is an open-source skill from nextlevelbuilder. Its SKILL.md drives a local Python search script over bundled data: 7..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Would you like help setting up the skill in your specific AI agent or running the design system generator for a project you are working on?",
+         "markdown": "Would you like help **setting up the skill in your specific AI agent** or **running the design system generator** for a project you are working on?",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "GitHub",
+         "domain": "github.com",
+         "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+         "title": "GitHub - nextlevelbuilder/ui-ux-pro-max-skill: An AI skill that provides design intelligence for building professional UI/UX across multiple platforms. · GitHub",
+         "text": "GitHub - nextlevelbuilder/ui-ux-pro-max-skill: An AI skill that provides design intelligence for building professional UI/UX across multiple platforms. GitHub. ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "ui-ux-pro-max-skill.com",
+         "domain": "ui-ux-pro-max-skill.com",
+         "url": "https://ui-ux-pro-max-skill.com/",
+         "title": "UI UX Pro Max Skill",
+         "text": "Quick Start with UI UX Pro Max Skill Follow these steps to use UI UX Pro Max Skill and go from prompt to a complete design system in minutes. 1) Install the Skill ..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "GitHub",
+         "domain": "github.com",
+         "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/README.md",
+         "title": "ui-ux-pro-max-skill/README.md at main · nextlevelbuilder/ui-ux-pro-max-skill · GitHub",
+         "text": "Overview: AI design intelligence skill for professional UI/UX across multiple platforms and frameworks. Features: 79 searchable UI styles (50 active), 192 industry..."
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]",
+       "domain": "explainx.ai",
+       "title": "ui-ux-pro-max — AI agent skill",
+       "url": "https://explainx.ai/skills/nextlevelbuilder/ui-ux-pro-max-skill/ui-ux-pro-max",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://explainx.ai › Registry › nextlevelbuilder",
+       "website_name": "explainx.ai",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "6 days ago — This Skill should be used when the task Reviewing UI code for user experience, accessibility, or visual consistency Implementing navigation ...",
+       "pre_snippet": "6 days ago",
+       "extended_snippet": "4.5(27)  · Free · ‎Developer",
+       "images": null,
+       "amp_version": false,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.5,
+        "votes_count": 27,
+        "rating_max": 5
+       },
+       "price": null,
+       "highlighted": [
+        "Skill",
+        "UI"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-10-16 08:54:58 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "video",
+       "rank_group": 1,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]",
+       "items": [
+        {
+         "type": "video_element",
+         "source": "YouTube · AI Stack Engineer",
+         "title": "OpenCode UI/UX Skill: Build 100X Better & Modern Designs ...",
+         "timestamp": "2026-02-04 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=Pc27ThkuBPQ"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube · Terminally Rooted",
+         "title": "UI UX pro skill is a must for front end design #ai #claude ...",
+         "timestamp": "2026-02-18 00:00:00 +00:00",
+         "url": "https://www.youtube.com/shorts/hvOlwIhCkzY"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube · Skillmdpro",
+         "title": "UI/UX Pro Max - The Ultimate AI Design Intelligence Tool",
+         "timestamp": "2026-03-16 00:00:00 +00:00",
+         "url": "https://www.youtube.com/watch?v=dpkNeasHDaM"
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "github.com",
+       "title": "WAAMEngineer/ui-ux-pro-max-skill",
+       "url": "https://github.com/waamengineer/ui-ux-pro-max-skill",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://github.com › waamengineer › ui-ux-pro-max-skill",
+       "website_name": "GitHub",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms and frameworks. UI UX Pro Max. If you find this useful, ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "provides design intelligence for building professional UI/UX"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://github.com/waamengineer/ui-ux-pro-max-skill#:~:text=An%20AI%20skill%20that%20provides,useful%2C%20consider%20supporting%20the%20project%3A",
+         "domain": "github.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]",
+       "domain": "explainx.ai",
+       "title": "ui-ux-pro-max-skill",
+       "url": "https://explainx.ai/skills/aradotso/trending-skills/ui-ux-pro-max-skill",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://explainx.ai › Registry › aradotso",
+       "website_name": "explainx.ai",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Oct 6, 2026 — UI UX Pro Max is an AI skill that injects design intelligence into coding agents — giving them 161 industry-specific reasoning rules, 67 UI ... Read more",
+       "pre_snippet": "10/06/2026 00:00:00",
+       "extended_snippet": "4.6(35)  · Free · ‎Developer",
+       "images": null,
+       "amp_version": false,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.6,
+        "votes_count": 35,
+        "rating_max": 5
+       },
+       "price": null,
+       "highlighted": [
+        "injects design intelligence into coding agents"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://explainx.ai/skills/aradotso/trending-skills/ui-ux-pro-max-skill#:~:text=UI%20UX%20Pro%20Max%20is,industry-specific%20reasoning%20rules%2C%2067%20UI",
+         "domain": "explainx.ai"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-10-06 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]",
+       "domain": "www.uupm.cc",
+       "title": "UI/UX Pro Max - AI-Powered Design Intelligence",
+       "url": "https://www.uupm.cc/demo/educational-platform",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://www.uupm.cc › demo › educational-platform",
+       "website_name": "UI/UX Pro Max",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "AI-powered design intelligence toolkit. Searchable database of UI styles, color palettes, font pairings, chart types, and UX guidelines.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "UI",
+        "UX"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+       "domain": "shyft.ai",
+       "title": "UI/UX Pro Max Skill - Design Intelligence",
+       "url": "https://shyft.ai/skills/ui-ux-pro-max-skill",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://shyft.ai › Skills",
+       "website_name": "Shyft AI",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "The UI/UX Pro Max Skill offers advanced design intelligence for creating professional user interfaces and experiences across multiple platforms.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "offers advanced design intelligence"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+       "domain": "www.linkedin.com",
+       "title": "GitHub - nextlevelbuilder/ui-ux-pro-max-skill: An AI ...",
+       "url": "https://www.linkedin.com/posts/heitorlessa_github-nextlevelbuilderui-ux-pro-max-skill-activity-7422872425606017025-1lO8",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "30+ reactions  ·  8 months ago",
+       "website_name": "LinkedIn · Heitor Lessa",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "provides design intelligence for building professional UI/UX"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+       "domain": "coldiq.com",
+       "title": "UI/UX Pro Max - Claude Code Skill",
+       "url": "https://coldiq.com/skills/uiux-pro-max",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://coldiq.com › Skills Directory",
+       "website_name": "ColdIQ",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Use for advanced UI/UX guidance. Provides design patterns, interaction principles, and UX best practices. 01. Install the skill. Read more",
+       "pre_snippet": null,
+       "extended_snippet": "5.0(23,224)  · Free · ‎Developer",
+       "images": null,
+       "amp_version": false,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 5,
+        "votes_count": 23224,
+        "rating_max": 5
+       },
+       "price": null,
+       "highlighted": [
+        "Use for advanced UI/UX guidance"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://coldiq.com/skills/uiux-pro-max#:~:text=Use%20for%20advanced%20UI%2FUX%20guidance.,Install%20the%20skill",
+         "domain": "coldiq.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 8,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[18]/div[1]/div[1]",
+       "domain": "skillsllm.com",
+       "title": "skills vs ui-ux-pro-max-skill",
+       "url": "https://skillsllm.com/compare/skills-vs-ui-ux-pro-max-skill",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://skillsllm.com › Compare",
+       "website_name": "SkillsLLM",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "An AI skill that provides design intelligence for building professional UI/UX across multiple platforms. ui-ux-pro-max-skill shows broader adoption through ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "provides design intelligence for building professional UI/UX"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Ui-ux Pro Max skill GitHub Claude Code",
+        "UI UX Pro Max skill Claude",
+        "How to install UI UX Pro Max skill in Claude desktop",
+        "Https github com nextlevelbuilder ui ux pro max skill skill ui ux pro max",
+        "UI-UX Pro Max skill antigravity",
+        "UI UX Pro Max skill Cursor",
+        "Ui-ux pro max skill GitHub antigravity",
+        "UI-UX Pro Max skill Codex"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

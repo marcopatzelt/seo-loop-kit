@@ -1,0 +1,109 @@
+# SEO loop as a GitHub Actions routine. Copy to .github/workflows/seo-loop.yml.
+#
+# Schedule: GitHub cron has no "every 21 days". "0 6 */21 * *" fires on day 1 and day 22 of each
+# month (about every 21 days, sometimes 7 to 10). The job below skips a scheduled run if the last
+# run folder is younger than 20 days, so the real rhythm is close to 21 days.
+#
+# The workflow runs run.py, and opens a PR with the gh CLI only if gate and critic passed
+# (result.json "ship": true). It never merges and never pushes to the default branch.
+
+name: seo-loop
+
+on:
+  schedule:
+    - cron: "0 6 */21 * *"
+  workflow_dispatch:
+    inputs:
+      budget:
+        description: "Max USD for this run (model + data)"
+        default: "8"
+      dry_run:
+        description: "Dry run (no model calls, no paid calls)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write        # push the seo-loop/<date> branch
+  pull-requests: write   # open the PR
+
+concurrency:
+  group: seo-loop
+  cancel-in-progress: false
+
+env:
+  CONFIG: loops/seo-loop/config.yaml
+  KIT: loops/seo-loop/kit
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4   # Claude Code CLI (used by claude-agent-sdk) and your site build
+        with:
+          node-version: "22"
+
+      - name: Install
+        run: |
+          pip install claude-agent-sdk google-auth requests
+          npm install -g @anthropic-ai/claude-code
+          if [ -f package-lock.json ]; then npm ci; fi
+
+      - name: Skip if the last run is younger than 20 days
+        id: due
+        if: github.event_name == 'schedule'
+        run: |
+          last=$(ls -1d loops/seo-loop/runs/*/ 2>/dev/null | sort | tail -n1 | xargs -r basename | cut -c1-10)
+          if [ -n "$last" ] && [ $(( ( $(date +%s) - $(date -d "$last" +%s) ) / 86400 )) -lt 20 ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"; echo "Last run $last, not due."
+          fi
+
+      - name: Run one iteration
+        if: steps.due.outputs.skip != 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DATAFORSEO_LOGIN: ${{ secrets.DATAFORSEO_LOGIN }}
+          DATAFORSEO_PASSWORD: ${{ secrets.DATAFORSEO_PASSWORD }}
+          GSC_KEY_JSON: ${{ secrets.GSC_KEY_JSON }}
+        run: |
+          if [ -n "$GSC_KEY_JSON" ]; then
+            export GSC_KEY_FILE="$RUNNER_TEMP/gsc.json"
+            printf '%s' "$GSC_KEY_JSON" > "$GSC_KEY_FILE"; chmod 600 "$GSC_KEY_FILE"
+          fi
+          args="--config $CONFIG --budget ${{ github.event.inputs.budget || '8' }}"
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then args="$args --dry-run"; fi
+          python "$KIT/run.py" $args
+
+      - name: Open a PR if gate and critic passed
+        if: steps.due.outputs.skip != 'true' && github.event.inputs.dry_run != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          result=$(ls -1t loops/seo-loop/runs/*/result.json 2>/dev/null | head -n1)
+          [ -n "$result" ] || { echo "No run result."; exit 0; }
+          ship=$(python -c "import json,sys; print(json.load(open(sys.argv[1]))['ship'])" "$result")
+          if [ "$ship" != "True" ]; then echo "Nothing passed gate and critic. No PR."; exit 0; fi
+          dir=$(dirname "$result")
+          branch=$(python -c "import json,sys; print(json.load(open(sys.argv[1]))['branch'])" "$result")
+          git config user.name "seo-loop"
+          git config user.email "seo-loop@users.noreply.github.com"
+          git switch -c "$branch"
+          git add -A "$(python -c "import sys; sys.path.insert(0, '$KIT'); from seoloop.config import load_config; print(load_config('$CONFIG')['_content_dir'])")" loops/seo-loop
+          git commit -m "seo-loop: pages that passed gate and critic ($(basename "$dir"))"
+          git push -u origin "$branch"
+          gh pr create --title "SEO loop $(basename "$dir")" --body-file "$dir/pr.md"
+
+      - name: Keep the board and log even without a PR
+        if: always() && steps.due.outputs.skip != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-loop-run
+          path: loops/seo-loop/runs/

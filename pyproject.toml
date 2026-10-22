@@ -1,0 +1,28 @@
+[project]
+name = "seo-loop-kit"
+version = "0.1.0"
+description = "An SEO loop for coding agents: board, research, gate, critic, PR, and a 21-day Search Console check."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Marco Patzelt" }]
+requires-python = ">=3.10"
+dependencies = [
+  "claude-agent-sdk>=0.2",
+  "google-auth>=2.0",
+  "requests>=2.31",
+]
+
+[project.optional-dependencies]
+yaml = ["pyyaml>=6"]   # optional; a built-in reader covers the config subset
+
+[project.urls]
+Homepage = "https://gethabit.dev/loops/seo-loop"
+Source = "https://github.com/marcopatzelt/seo-loop-kit"
+
+[tool.setuptools]
+packages = ["seoloop"]
+py-modules = ["run", "dfs", "verify"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

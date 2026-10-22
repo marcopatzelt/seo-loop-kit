@@ -1,0 +1,657 @@
+{
+ "version": "0.1.20260917",
+ "status_code": 20000,
+ "status_message": "Ok.",
+ "time": "5.4202 sec.",
+ "cost": 0.002,
+ "tasks_count": 1,
+ "tasks_error": 0,
+ "tasks": [
+  {
+   "id": "10220854-1430-0139-0000-80644ba6db54",
+   "status_code": 20000,
+   "status_message": "Ok.",
+   "time": "5.3532 sec.",
+   "cost": 0.002,
+   "result_count": 1,
+   "path": [
+    "v3",
+    "serp",
+    "google",
+    "organic",
+    "live",
+    "advanced"
+   ],
+   "data": {
+    "api": "serp",
+    "function": "live",
+    "se": "google",
+    "se_type": "organic",
+    "location_code": 2840,
+    "language_code": "en",
+    "keyword": "archify",
+    "device": "desktop",
+    "depth": 10,
+    "os": "windows"
+   },
+   "result": [
+    {
+     "keyword": "archify",
+     "type": "organic",
+     "se_domain": "google.com",
+     "location_code": 2840,
+     "language_code": "en",
+     "check_url": "https://www.google.com/search?q=archify&hl=en&gl=US&ie=UTF-8&uule=w+CAIQIFISCQs2MuSEtepUEUK33kOSuTsc",
+     "datetime": "2026-10-22 08:54:55 +00:00",
+     "spell": null,
+     "refinement_chips": null,
+     "item_types": [
+      "ai_overview",
+      "video",
+      "organic",
+      "images",
+      "related_searches"
+     ],
+     "se_results_count": 112,
+     "pages_count": 1,
+     "items_count": 11,
+     "items": [
+      {
+       "type": "ai_overview",
+       "rank_group": 1,
+       "rank_absolute": 1,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
+       "asynchronous_ai_overview": false,
+       "markdown": "**Archify** is `an open-source AI agent skill that converts codebases or natural language descriptions into interactive, self-contained architecture and system diagrams`.[[1]](https://github.com/tt-a1i/archify)[[2]](https://www.coddykit.com/pages/blog-detail?id=513029&slug=archify-the-open-source-ai-agent-skill-with-20-000-github-stars-that-turns-code-)\n\n### Key Features\n\n- **AI Coding Assistant Integration:** Works as a plugin or skill for tools like Cursor, Claude Code , Codex CLI, and OpenCode.[[1]](https://www.coddykit.com/pages/blog-detail?id=513029&slug=archify-the-open-source-ai-agent-skill-with-20-000-github-stars-that-turns-code-)\n- **Five Diagram Modes:** Supports architecture (components and services), workflow (processes and CI/CD), sequence (API call chains), data flow (pipelines and lineage), and lifecycle (states and retries).[[1]](https://taku.ai/blog/skill-archify)\n- **Atomic Validation:** Compiles system descriptions into typed JSON and validates schema, layout, routes, and label clearances before outputting HTML.[[1]](https://github.com/tt-a1i/archify)[[2]](https://www.coddykit.com/pages/blog-detail?id=513029&slug=archify-the-open-source-ai-agent-skill-with-20-000-github-stars-that-turns-code-)\n- **Interactive HTML Output:** Produces a standalone HTML file where you can click components, trace routes, switch themes (dark/light), and export share cards or images (PNG, SVG, WebM).[[1]](https://github.com/tt-a1i/archify)[[2]](https://www.coddykit.com/pages/blog-detail?id=513029&slug=archify-the-open-source-ai-agent-skill-with-20-000-github-stars-that-turns-code-)\n- **Architecture Delta:** Compares before-and-after snapshots to generate a report on added, removed, or changed components during PR reviews.[[1]](https://www.coddykit.com/pages/blog-detail?id=513029&slug=archify-the-open-source-ai-agent-skill-with-20-000-github-stars-that-turns-code-)\n\n### How to Install & Use\n\n- **Global Install:** You can install it via package managers using `npx skills add tt-a1i/archify -g` or `npm install -g @archify/skills`.\n- **Manual Setup:** Download the skill folder and place it into your project or global Claude skills directory (`~/.claude/skills/`).\n- **CLI Usage:** Run direct commands such as `node archify/bin/archify.mjs guide \"your description\"`.[[1]](https://www.youtube.com/watch?v=HMZXCg37YGU&t=33)[[2]](https://www.coddykit.com/pages/blog-detail?id=513044&slug=archify-the-open-source-agent-skill-with-36-000-github-stars-that-turns-code-int)[[3]](https://www.getclaudeskills.com/skills/archify-tt-a1i)[[4]](https://www.coddykit.com/pages/blog-detail?id=513029&slug=archify-the-open-source-ai-agent-skill-with-20-000-github-stars-that-turns-code-)\n\nWatch a walkthrough on how Archify turns codebases and text descriptions into interactive diagrams:![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTYUdGqzWKefzOsv71V8aBzMpuBi8sM2AdKvPaLkI-mK9IuvlBc)\n6:00[](https://www.youtube.com/watch?v=tuOd32Qikrs) Archify + (Claude Code/Codex): Turn Any Codebase into a Beautiful AI ...28K views  · 1 month ago![](https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&amp;client=AIM&amp;size=128&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL)\nYouTube · Codedigipt![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIs0tGY1GhyCxwlRq7VLe_66LwGQ7J7l8QeqgflTo64I5ut3iC)\n7:27[](https://www.youtube.com/watch?v=iuJszJuiuSg) This Open-Source Tool Makes Claude Create Architecture Diagrams 150K views  · 1 month ago![](https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&amp;client=AIM&amp;size=128&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL)\nYouTube · Better Stack![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTvi7El6kVEPT10TAcgsWTfyYpBtSt4CeFwVa1oDYVR21pRXBNM)\n5m[](https://www.youtube.com/watch?v=HMZXCg37YGU&t=33) Archify Tutorial Create Architecture Diagrams Automatically Step by Step 3.6K views  · 1 month ago![](https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&amp;client=AIM&amp;size=128&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL)\nYouTube · Real World Devs If you want to try it out, let me know:\n\n- Which **AI coding assistant** you are using (Cursor, Claude Code, etc.)\n- Whether you want to map a **local repository** or describe a **new system from scratch** \n\nI can help you craft the right prompt or installation command.",
+       "items": [
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Archify is an open-source AI agent skill that converts codebases or natural language descriptions into interactive, self-contained architecture and system diagrams.",
+         "markdown": "**Archify** is `an open-source AI agent skill that converts codebases or natural language descriptions into interactive, self-contained architecture and system diagrams`.[[1]](https://github.com/tt-a1i/archify)[[2]](https://www.coddykit.com/pages/blog-detail?id=513029&slug=archify-the-open-source-ai-agent-skill-with-20-000-github-stars-that-turns-code-)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "GitHub",
+           "domain": "github.com",
+           "url": "https://github.com/tt-a1i/archify",
+           "title": "GitHub - tt-a1i/archify: Turn any idea, plan, or codebase into a beautiful ...",
+           "text": "Repository files navigation. ... Turn anything you want to understand, plan, or share into an interactive visual. * Official chann..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "CoddyKit",
+           "domain": "www.coddykit.com",
+           "url": "https://www.coddykit.com/pages/blog-detail?id=513029&slug=archify-the-open-source-ai-agent-skill-with-20-000-github-stars-that-turns-code-",
+           "title": "Archify: The Open",
+           "text": "Archify is an open-source AI agent skill (20,400+ GitHub stars) that transforms codebases and system descriptions into polished, i..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": "Key Features",
+         "text": "AI Coding Assistant Integration: Works as a plugin or skill for tools like Cursor, Claude Code, Codex CLI, and OpenCode. Cursor Claude Code Five Diagram Modes: Supports architecture (components and services), workflow (processes and CI/CD), sequence (API call chains), data flow (pipelines and lineage), and lifecycle (states and retries). Atomic Validation: Compiles system descriptions into typed JSON and validates schema, layout, routes, and label clearances before outputting HTML. Interactive HTML Output: Produces a standalone HTML file where you can click components, trace routes, switch themes (dark/light), and export share cards or images (PNG, SVG, WebM). Architecture Delta: Compares before-and-after snapshots to generate a report on added, removed, or changed components during PR reviews.",
+         "markdown": "- **AI Coding Assistant Integration:** Works as a plugin or skill for tools like Cursor, Claude Code , Codex CLI, and OpenCode.[[1]](https://www.coddykit.com/pages/blog-detail?id=513029&slug=archify-the-open-source-ai-agent-skill-with-20-000-github-stars-that-turns-code-)\n- **Five Diagram Modes:** Supports architecture (components and services), workflow (processes and CI/CD), sequence (API call chains), data flow (pipelines and lineage), and lifecycle (states and retries).[[1]](https://taku.ai/blog/skill-archify)\n- **Atomic Validation:** Compiles system descriptions into typed JSON and validates schema, layout, routes, and label clearances before outputting HTML.[[1]](https://github.com/tt-a1i/archify)[[2]](https://www.coddykit.com/pages/blog-detail?id=513029&slug=archify-the-open-source-ai-agent-skill-with-20-000-github-stars-that-turns-code-)\n- **Interactive HTML Output:** Produces a standalone HTML file where you can click components, trace routes, switch themes (dark/light), and export share cards or images (PNG, SVG, WebM).[[1]](https://github.com/tt-a1i/archify)[[2]](https://www.coddykit.com/pages/blog-detail?id=513029&slug=archify-the-open-source-ai-agent-skill-with-20-000-github-stars-that-turns-code-)\n- **Architecture Delta:** Compares before-and-after snapshots to generate a report on added, removed, or changed components during PR reviews.[[1]](https://www.coddykit.com/pages/blog-detail?id=513029&slug=archify-the-open-source-ai-agent-skill-with-20-000-github-stars-that-turns-code-)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "CoddyKit",
+           "domain": "www.coddykit.com",
+           "url": "https://www.coddykit.com/pages/blog-detail?id=513029&slug=archify-the-open-source-ai-agent-skill-with-20-000-github-stars-that-turns-code-",
+           "title": "Archify: The Open",
+           "text": "Archify is an open-source AI agent skill (20,400+ GitHub stars) that transforms codebases and system descriptions into polished, i..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "taku.ai",
+           "domain": "taku.ai",
+           "url": "https://taku.ai/blog/skill-archify",
+           "title": "Archify: Architecture Diagrams Your Agent Can Verify",
+           "text": "Archify: Architecture Diagrams Your Agent Can Verify * Archify is an agent skill that has your AI agent draw architecture, workflo..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "GitHub",
+           "domain": "github.com",
+           "url": "https://github.com/tt-a1i/archify",
+           "title": "GitHub - tt-a1i/archify: Turn any idea, plan, or codebase into a beautiful ...",
+           "text": "Repository files navigation. ... Turn anything you want to understand, plan, or share into an interactive visual. * Official channels： archify.si · GitHub. Archify..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": "How to Install & Use",
+         "text": "Global Install: You can install it via package managers using npx skills add tt-a1i/archify -g or npm install -g @archify/skills. Manual Setup: Download the skill folder and place it into your project or global Claude skills directory ( ~/.claude/skills/ ). CLI Usage: Run direct commands such as node archify/bin/archify.mjs guide \"your description\".",
+         "markdown": "- **Global Install:** You can install it via package managers using `npx skills add tt-a1i/archify -g` or `npm install -g @archify/skills`.\n- **Manual Setup:** Download the skill folder and place it into your project or global Claude skills directory (`~/.claude/skills/`).\n- **CLI Usage:** Run direct commands such as `node archify/bin/archify.mjs guide \"your description\"`.[[1]](https://www.youtube.com/watch?v=HMZXCg37YGU&t=33)[[2]](https://www.coddykit.com/pages/blog-detail?id=513044&slug=archify-the-open-source-agent-skill-with-36-000-github-stars-that-turns-code-int)[[3]](https://www.getclaudeskills.com/skills/archify-tt-a1i)[[4]](https://www.coddykit.com/pages/blog-detail?id=513029&slug=archify-the-open-source-ai-agent-skill-with-20-000-github-stars-that-turns-code-)",
+         "links": null,
+         "images": null,
+         "references": [
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "YouTube",
+           "domain": "www.youtube.com",
+           "url": "https://www.youtube.com/watch?v=HMZXCg37YGU&t=33",
+           "title": "Archify Tutorial Create Architecture Diagrams Automatically Step by Step",
+           "text": "Archify Tutorial Create Architecture Diagrams Automatically Step by Step so that I can use this you know offline mode and offline ..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "CoddyKit",
+           "domain": "www.coddykit.com",
+           "url": "https://www.coddykit.com/pages/blog-detail?id=513044&slug=archify-the-open-source-agent-skill-with-36-000-github-stars-that-turns-code-int",
+           "title": "Archify: The Open",
+           "text": "⚡ Quick Answer Archify is an open-source agent skill that transforms codebase descriptions into interactive, verifiable architectu..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "Get Claude Skills",
+           "domain": "www.getclaudeskills.com",
+           "url": "https://www.getclaudeskills.com/skills/archify-tt-a1i",
+           "title": "Archify",
+           "text": "Archify emphasizes validation, ensuring that each diagram is accurate and adheres to quality standards before final delivery. This..."
+          },
+          {
+           "type": "ai_overview_reference",
+           "position": "left",
+           "source": "CoddyKit",
+           "domain": "www.coddykit.com",
+           "url": "https://www.coddykit.com/pages/blog-detail?id=513029&slug=archify-the-open-source-ai-agent-skill-with-20-000-github-stars-that-turns-code-",
+           "title": "Archify: The Open",
+           "text": "Archify is an open-source AI agent skill (20,400+ GitHub stars) that transforms codebases and system descriptions into polished, i..."
+          }
+         ]
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "Watch a walkthrough on how Archify turns codebases and text descriptions into interactive diagrams: 6:00 Archify + (Claude Code/Codex): Turn Any Codebase into a Beautiful AI ... 28K views · 1 month ago YouTube · Codedigipt 7:27 This Open-Source Tool Makes Claude Create Architecture Diagrams 150K views · 1 month ago YouTube · Better Stack 5m Archify Tutorial Create Architecture Diagrams Automatically Step by Step 3.6K views · 1 month ago YouTube · Real World Devs",
+         "markdown": "Watch a walkthrough on how Archify turns codebases and text descriptions into interactive diagrams:![](https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTYUdGqzWKefzOsv71V8aBzMpuBi8sM2AdKvPaLkI-mK9IuvlBc)\n6:00[](https://www.youtube.com/watch?v=tuOd32Qikrs) Archify + (Claude Code/Codex): Turn Any Codebase into a Beautiful AI ...28K views  · 1 month ago![](https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&amp;client=AIM&amp;size=128&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL)\nYouTube · Codedigipt![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIs0tGY1GhyCxwlRq7VLe_66LwGQ7J7l8QeqgflTo64I5ut3iC)\n7:27[](https://www.youtube.com/watch?v=iuJszJuiuSg) This Open-Source Tool Makes Claude Create Architecture Diagrams 150K views  · 1 month ago![](https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&amp;client=AIM&amp;size=128&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL)\nYouTube · Better Stack![](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTvi7El6kVEPT10TAcgsWTfyYpBtSt4CeFwVa1oDYVR21pRXBNM)\n5m[](https://www.youtube.com/watch?v=HMZXCg37YGU&t=33) Archify Tutorial Create Architecture Diagrams Automatically Step by Step 3.6K views  · 1 month ago![](https://encrypted-tbn2.gstatic.com/faviconV2?url=https://www.youtube.com&amp;client=AIM&amp;size=128&amp;type=FAVICON&amp;fallback_opts=TYPE,SIZE,URL)\nYouTube · Real World Devs",
+         "links": null,
+         "images": null,
+         "references": null
+        },
+        {
+         "type": "ai_overview_element",
+         "position": "left",
+         "title": null,
+         "text": "If you want to try it out, let me know:Which AI coding assistant you are using (Cursor, Claude Code, etc.)\nWhether you want to map a local repository or describe a new system from scratch\nI can help you craft the right prompt or installation command.",
+         "markdown": "If you want to try it out, let me know:\n\n- Which **AI coding assistant** you are using (Cursor, Claude Code, etc.)\n- Whether you want to map a **local repository** or describe a **new system from scratch** \n\nI can help you craft the right prompt or installation command.",
+         "links": null,
+         "images": null,
+         "references": null
+        }
+       ],
+       "references": [
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "GitHub",
+         "domain": "github.com",
+         "url": "https://github.com/tt-a1i/archify",
+         "title": "GitHub - tt-a1i/archify: Turn any idea, plan, or codebase into a beautiful ...",
+         "text": "Repository files navigation. ... Turn anything you want to understand, plan, or share into an interactive visual. * Official channels： archify.si · GitHub. Archify..."
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "YouTube",
+         "domain": "www.youtube.com",
+         "url": "https://www.youtube.com/watch?v=HMZXCg37YGU&t=33",
+         "title": "Archify Tutorial Create Architecture Diagrams Automatically Step by Step",
+         "text": "Archify Tutorial Create Architecture Diagrams Automatically Step by Step so that I can use this you know offline mode and offline you know lm model and all local s"
+        },
+        {
+         "type": "ai_overview_reference",
+         "position": "right",
+         "source": "Get Claude Skills",
+         "domain": "www.getclaudeskills.com",
+         "url": "https://www.getclaudeskills.com/skills/archify-tt-a1i",
+         "title": "Archify",
+         "text": "Archify emphasizes validation, ensuring that each diagram is accurate and adheres to quality standards before final delivery. This focus on quality is crucial for ..."
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "video",
+       "rank_group": 1,
+       "rank_absolute": 2,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[2]/div[1]",
+       "items": [
+        {
+         "type": "video_element",
+         "source": "YouTube · Better Stack",
+         "title": "This Open-Source Tool Makes Claude Create Architecture ...",
+         "timestamp": "2026-09-22 08:54:55 +00:00",
+         "url": "https://www.youtube.com/watch?v=iuJszJuiuSg"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube · Real World Devs",
+         "title": "Archify Tutorial Create Architecture Diagrams Automatically ...",
+         "timestamp": "2026-09-22 08:54:55 +00:00",
+         "url": "https://www.youtube.com/watch?v=HMZXCg37YGU"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube · Codedigipt",
+         "title": "Archify + (Claude Code/Codex): Turn Any Codebase into a ...",
+         "timestamp": "2026-09-22 08:54:55 +00:00",
+         "url": "https://www.youtube.com/watch?v=tuOd32Qikrs"
+        },
+        {
+         "type": "video_element",
+         "source": "YouTube · DevsKingdom",
+         "title": "Archify: Turn Any Project Into an Interactive Diagram in One Click",
+         "timestamp": "2026-09-22 08:54:55 +00:00",
+         "url": "https://www.youtube.com/watch?v=h4ytPKudUY8"
+        }
+       ],
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 1,
+       "rank_absolute": 3,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[4]/div[1]/div[1]",
+       "domain": "github.com",
+       "title": "ROADMAP.md - tt-a1i/archify",
+       "url": "https://github.com/tt-a1i/archify/blob/main/ROADMAP.md",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://github.com › archify › blob › main › ROADMAP",
+       "website_name": "GitHub",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Apr 16, 2026 — Archify is optimized for desktop technical reading, presentation, documentation embeds, and export. Small screens keep a contained basic ... Read more",
+       "pre_snippet": "04/16/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Archify"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://github.com/tt-a1i/archify/blob/main/ROADMAP.md#:~:text=Archify%20is%20optimized%20for%20desktop,are%20not%20product%20acceptance%20gates.",
+         "domain": "github.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-04-16 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 2,
+       "rank_absolute": 4,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[6]/div[1]/div[1]",
+       "domain": "note.com",
+       "title": "I tried using 'Archify', which democratizes system ...",
+       "url": "https://note.com/humble_bobcat51/n/n8927f420dfba?hl=en",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "30+ likes  ·  1 month ago",
+       "website_name": "note · ゆいまる‐IT界隈以外でAIを使いまくる2005年生まれ",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Archify is an Agent Skill that grants next-generation AI agents like Cursor, Claude Code, and Raven the 'ability to visualize systems'.",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Archify is an Agent Skill"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "images",
+       "rank_group": 1,
+       "rank_absolute": 5,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[8]/div[1]",
+       "title": "Images",
+       "url": "https://www.google.com/search?sca_esv=9e44a9c1964ca618&hl=en&gl=US&sxsrf=APpeQnurpev_zIL_QC526nhwkCvlskD-Ew:1792659294565&q=archify&udm=2&source=univ&fir=Ujicj_PuIPocoM%252Crj-8rqKUX7ruvM%252C_%253Bc3x-NQAN_iTyYM%252CRaUVXl3MgmaOUM%252C_%253Br7eeGtNhpYZGSM%252CTlcx-voiQZTFGM%252C_%253BY0GCQpCa0P6gZM%252CAIq2yfTL-tK5WM%252C_%253BcgNf5FRcIR1ZpM%252C9bagR03dPfok1M%252C_%253BilecbM0ipzd9LM%252ClRtgTjqoLM7iMM%252C_%253B97WTAXPJ4Kj21M%252CzNEaANrPQlBPTM%252C_%253BzBLaIwwavRymNM%252C9wX4YWIbbLoAxM%252C_%253BvDyVcDWKfI9hSM%252CAIq2yfTL-tK5WM%252C_&usg=AI4_-kS1B4H3TiIpYL6Evdk5FNkETEdvYw&sa=X&ved=2ahUKEwinidKjoM2XAxUOzsMFHfuhI2wQ7Al6BAg2EAU",
+       "items": [
+        {
+         "type": "images_element",
+         "alt": "GitHub - tt-a1i/archify: Agent skill for beautiful,...",
+         "url": "https://daily.dev/posts/nbzzzy33n",
+         "image_url": "https://api.dataforseo.com/cdn/i/10220854-1430-0139-0000-80644ba6db54:0"
+        },
+        {
+         "type": "images_element",
+         "alt": "Archify Partners With NBS and SCL Schumann | LeadManager ...",
+         "url": "https://www.bcicentral.com/archify-partners-with-nbs-and-scl-schumann/",
+         "image_url": "https://api.dataforseo.com/cdn/i/10220854-1430-0139-0000-80644ba6db54:1"
+        },
+        {
+         "type": "images_element",
+         "alt": "Deja de Hacer Diagramas a Mano… Prueba Archify",
+         "url": "https://www.youtube.com/watch?v=8CPbwpHakr4",
+         "image_url": "https://api.dataforseo.com/cdn/i/10220854-1430-0139-0000-80644ba6db54:2"
+        },
+        {
+         "type": "images_element",
+         "alt": "Archify",
+         "url": "https://www.facebook.com/archifyasia/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWzvJyY6PdvQaKEaxP5ShgPZhXAbLae-QeAseJvKSW_BfWclPRHSqQEaI&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Archify Platformu (@archifycom) • Instagram photos and videos",
+         "url": "https://www.instagram.com/archifycom/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxuVgf1Gy7vPvS2ly-l6iWPnel70HJkLhB6l3g1AomugoKcSpESBVLaig&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Find us on your favourite architecture and design portals ...",
+         "url": "https://nry.com.my/find-us-on-your-favourite-architecture-and-design-portals/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMJy3k5r3NooRDBSXtQ81sAkI1HEvEZv-h51i0_c2af_LUooz6GCQo3NY&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Archify : understand software | Product Hunt",
+         "url": "https://www.producthunt.com/products/archify",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgVclGljk9FaaD_l8wtGElQEXxmZ90Co7EuVig5CiEL-PFdbktQcFK_Jw&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Archify | LinkedIn",
+         "url": "https://au.linkedin.com/company/archify-apac",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJwaNGyz_Ns23hxmQ4sUFv3FCzu60O19LWCF-TovIp17rixYlcE-Q58kM&s"
+        },
+        {
+         "type": "images_element",
+         "alt": "Archify",
+         "url": "https://www.facebook.com/archifyasia/",
+         "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-jy36cXceEicAmoqVYChBQGuOaYQNyEb3MKYI4J_GapC6AH8UfbLSAPY&s"
+        }
+       ],
+       "related_image_searches": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 3,
+       "rank_absolute": 6,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]",
+       "domain": "www.reddit.com",
+       "title": "Archify AI Architecture Diagram Generator Will SHOCK ...",
+       "url": "https://www.reddit.com/r/AISEOInsider/comments/1w62rh7/archify_ai_architecture_diagram_generator_will/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "1 month ago",
+       "website_name": "Reddit · r/AISEOInsider",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": "Archify supports architecture, workflow, sequence, data flow, and life cycle diagrams. Archify checks the diagram before rendering, supports ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Archify supports architecture, workflow, sequence, data flow, and life cycle diagrams"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-09-22 08:54:55 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 4,
+       "rank_absolute": 7,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[10]/div[1]/div[1]/div[1]",
+       "domain": "www.youtube.com",
+       "title": "Turn Any Codebase Into Interactive Architecture Diagrams",
+       "url": "https://www.youtube.com/watch?v=vnk0huCDCb8",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "1.5K+ views  ·  1 month ago",
+       "website_name": "YouTube · CLI Stack",
+       "is_image": false,
+       "is_video": true,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": [
+        "is_video"
+       ],
+       "description": null,
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": null,
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-08-28 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 5,
+       "rank_absolute": 8,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[12]/div[1]/div[1]",
+       "domain": "agentconn.com",
+       "title": "Archify - AI Agent Skill",
+       "url": "https://agentconn.com/skills/archify/",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://agentconn.com › Skills",
+       "website_name": "AgentConn",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Archify is an agent skill that transforms codebases and system descriptions into interactive, shareable technical diagrams — directly in chat. Instead of ... Read more",
+       "pre_snippet": null,
+       "extended_snippet": "4.3(448)  · Free",
+       "images": null,
+       "amp_version": false,
+       "rating": {
+        "rating_type": "Max5",
+        "value": 4.3,
+        "votes_count": 448,
+        "rating_max": 5
+       },
+       "price": null,
+       "highlighted": [
+        "transforms codebases and system descriptions into interactive, shareable technical diagrams"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://agentconn.com/skills/archify/#:~:text=Archify%20is%20an%20agent%20skill,directly%20in%20chat.%20Instead%20of",
+         "domain": "agentconn.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 6,
+       "rank_absolute": 9,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[14]/div[1]/div[1]",
+       "domain": "github.com",
+       "title": "tt-a1i/archify: Turn any idea, plan, or codebase into a ...",
+       "url": "https://github.com/tt-a1i/archify?aid=recIVHyTlfxYtBui8",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "https://github.com › archify",
+       "website_name": "GitHub",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Oct 10, 2026 — Start with an idea, a question, or a plan. Describe it to your AI agent, and Archify turns it into an interactive HTML you can explore, ... Read more",
+       "pre_snippet": "10/10/2026 00:00:00",
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Archify turns it into an interactive HTML"
+       ],
+       "links": [
+        {
+         "type": "link_element",
+         "title": "Read more",
+         "description": null,
+         "url": "https://github.com/tt-a1i/archify?aid=recIVHyTlfxYtBui8#:~:text=Start%20with%20an%20idea%2C%20a,can%20explore%2C%20customize%2C%20and%20share.",
+         "domain": "github.com"
+        }
+       ],
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": "2026-10-10 00:00:00 +00:00",
+       "rectangle": null
+      },
+      {
+       "type": "organic",
+       "rank_group": 7,
+       "rank_absolute": 10,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[1]/div[2]/div[1]/div[1]/div[16]/div[1]/div[1]",
+       "domain": "medium.com",
+       "title": "Archify: Turning Your Codebase into Interactive ...",
+       "url": "https://medium.com/@mjghadge9007/archify-turning-your-codebase-into-interactive-architecture-diagrams-with-ai-agents-a0614f09ca18",
+       "cache_url": null,
+       "related_search_url": null,
+       "breadcrumb": "2 weeks ago",
+       "website_name": "Medium · Mayur Ghadge",
+       "is_image": false,
+       "is_video": false,
+       "is_featured_snippet": false,
+       "is_malicious": false,
+       "is_web_story": false,
+       "checks": null,
+       "description": "Archify enables AI coding agents such as Claude Code, Cursor, Codex CLI, and OpenCode to generate interactive architecture diagrams directly ...",
+       "pre_snippet": null,
+       "extended_snippet": null,
+       "images": null,
+       "amp_version": false,
+       "rating": null,
+       "price": null,
+       "highlighted": [
+        "Archify"
+       ],
+       "links": null,
+       "faq": null,
+       "extended_people_also_search": null,
+       "about_this_result": null,
+       "related_result": null,
+       "timestamp": null,
+       "rectangle": null
+      },
+      {
+       "type": "related_searches",
+       "rank_group": 1,
+       "rank_absolute": 11,
+       "page": 1,
+       "position": "left",
+       "xpath": "/html[1]/body[1]/div[3]/div[1]/div[13]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[2]",
+       "items": [
+        "Archify github",
+        "Archify spec"
+       ],
+       "rectangle": null
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,187 @@
+{
+ "run": "2026-10-22-seo",
+ "date": "2026-10-22",
+ "site": "https://gethabit.dev",
+ "queries": [
+  {
+   "step": "build",
+   "model": "claude-sonnet-5-5",
+   "cost_usd": 0.0630405,
+   "result": "success",
+   "turns": 8
+  },
+  {
+   "step": "critic",
+   "model": "claude-opus-5-5",
+   "cost_usd": 0.1179742,
+   "result": "success",
+   "turns": 7
+  },
+  {
+   "step": "rewrite",
+   "model": "claude-sonnet-5-5",
+   "cost_usd": 0.0472216,
+   "result": "success",
+   "turns": 9
+  },
+  {
+   "step": "critic",
+   "model": "claude-opus-5-5",
+   "cost_usd": 0.09582740000000001,
+   "result": "success",
+   "turns": 6
+  }
+ ],
+ "pages": [
+  {
+   "page": "examples/gethabit/content/archify.md",
+   "task": "T-001",
+   "gate": [
+    [
+     "PASS build passes: skipped: no build_command in config",
+     "PASS title length: 47 chars, max 60",
+     "PASS description length: 149 chars, max 155",
+     "PASS no new noindex",
+     "PASS keyword in title: \"archify\"",
+     "PASS keyword in H1: \"archify\"",
+     "PASS keyword in first paragraph: \"archify\"",
+     "PASS no duplicate page"
+    ],
+    [
+     "PASS build passes: skipped: no build_command in config",
+     "PASS title length: 47 chars, max 60",
+     "PASS description length: 149 chars, max 155",
+     "PASS no new noindex",
+     "PASS keyword in title: \"archify\"",
+     "PASS keyword in H1: \"archify\"",
+     "PASS keyword in first paragraph: \"archify\"",
+     "PASS no duplicate page"
+    ]
+   ],
+   "critic": [
+    {
+     "intent": 3,
+     "facts": 4,
+     "copy": 3,
+     "links_schema": 3,
+     "own_value": 1,
+     "total": 14,
+     "notes": [
+      "Intent: the description promises 'how to use it' but the page sends readers to the repo. Add a short 'How to run it' section (install command, one example prompt, what comes out) sourced from the README with a checked date, or remove 'how to use it' from the description.",
+      "Facts: 'not a standalone app' goes further than the sources (agentconn only says 'AI Agent Skill'). Drop it or cite the README line. Before publishing, confirm the README actually says idea, plan or codebase; the critic only checked SERP titles.",
+      "Copy: delete the filler sentence 'This page explains what that means in practice and where it can sit in a repeatable habit.'",
+      "Copy: cut the stacked hedges ('Based on the public sources listed above:', 'This is a suggested use, not a built-in step of that loop.', 'The sources above are descriptions, not benchmarks...') down to one honest line such as 'We have not tested Archify ourselves.'",
+      "Copy: replace the bare URL 'https://github.com/tt-a1i/archify' in the body with a link that has a descriptive anchor, such as 'the Archify repo on GitHub'.",
+      "Frontmatter: add a url field (e.g. url: \"/archify\") to match the existing pages.",
+      "Own value: add a worked example. Run Archify on a real spec from the plan grill loop and show the input, the diagram and what needed manual correction. Or add a decision table of PR types (new module, move, rename, config-only) saying when to regenerate the diagram and why. The note.com and YouTube results already show real use; this page shows none."
+     ]
+    },
+    {
+     "intent": 3,
+     "facts": 5,
+     "copy": 4,
+     "links_schema": 3,
+     "own_value": 2,
+     "total": 17,
+     "notes": [
+      "Intent: add a short 'How to run it' section with the install command from the repo README, one example prompt and the output format, date-stamped and linked to the repo; the sentence 'We do not repeat them here because they change' leaves the main how-to question unanswered.",
+      "Intent: consider retitling the H1/title toward the searcher, e.g. 'Archify: what it does, how to run it, when to use it', rather than leading with the site's loop angle.",
+      "Own value: replace 'We have not tested Archify ourselves' with one worked example: run it on a small public repo before and after a structural PR and show or describe the diagram difference, which backs up the regenerate table.",
+      "Copy: split the last sentence of 'Make it a habit' ('An Archify step would follow the same pattern: ...') into two shorter sentences."
+     ]
+    }
+   ]
+  }
+ ],
+ "verify": "nothing due",
+ "dfs_calls": [
+  {
+   "label": "search volume",
+   "path": "/keywords_data/google_ads/search_volume/live",
+   "cost_usd": 0.09,
+   "cache": false,
+   "ok": true,
+   "time": "2026-10-22 10:54"
+  },
+  {
+   "label": "serp: grill me skill",
+   "path": "/serp/google/organic/live/advanced",
+   "cost_usd": 0.002,
+   "cache": false,
+   "ok": true,
+   "time": "2026-10-22 10:54"
+  },
+  {
+   "label": "serp: matt pocock skills",
+   "path": "/serp/google/organic/live/advanced",
+   "cost_usd": 0.002,
+   "cache": false,
+   "ok": true,
+   "time": "2026-10-22 10:54"
+  },
+  {
+   "label": "serp: archify",
+   "path": "/serp/google/organic/live/advanced",
+   "cost_usd": 0.002,
+   "cache": false,
+   "ok": true,
+   "time": "2026-10-22 10:54"
+  },
+  {
+   "label": "serp: ui ux pro max skill",
+   "path": "/serp/google/organic/live/advanced",
+   "cost_usd": 0.002,
+   "cache": false,
+   "ok": true,
+   "time": "2026-10-22 10:54"
+  },
+  {
+   "label": "serp: taste skill",
+   "path": "/serp/google/organic/live/advanced",
+   "cost_usd": 0.002,
+   "cache": false,
+   "ok": true,
+   "time": "2026-10-22 10:55"
+  },
+  {
+   "label": "ranked: gethabit.dev",
+   "path": "/dataforseo_labs/google/ranked_keywords/live",
+   "cost_usd": 0.012,
+   "cache": false,
+   "ok": true,
+   "time": "2026-10-22 10:55"
+  }
+ ],
+ "notes": [],
+ "builder_summary": "**Tasks created:** 1. It is `archify`, a new page at `/archify`. The search data shows 1,300 searches a month with low competition (DataForSEO, 2026-10-22). gethabit.dev ranks for nothing yet. The task is in `runs/2026-10-22-seo/tasks.json`.\n\n**Page written:** `content/archify.md`, with `draft: true`.\n- The title is 49 characters and the description is about 150, both within the limits.\n- It links to the plan grill loop, UI taste loop and SEO loop pages.\n- Every claim comes from the sources in the data file. The page does not describe features, install steps or performance, because the data file only has search-result titles for Archify. It points readers to the repo for those.\n- The top 10 for Archify is a repo, a roadmap, a Reddit post, a video, a directory listing and a Medium post. This page adds a view on where a diagram fits in the plan-to-tickets habit.\n- That habit angle is a suggestion, and the page says so. The critic may find the page thin because of the source limit.\n\n**Skipped:**\n- `grill me skill`, `matt pocock skills`, `ui ux pro max skill` and `taste skill` had no measured volume on 2026-10-22. I didn't create tasks for them.\n- The gate found no existing page for `archify` or its slug, so that task went ahead.",
+ "cost": [
+  [
+   "dataforseo",
+   0.112
+  ],
+  [
+   "builder",
+   0.06304
+  ],
+  [
+   "critic",
+   0.117974
+  ],
+  [
+   "rewrite",
+   0.047222
+  ],
+  [
+   "critic",
+   0.095827
+  ]
+ ],
+ "total_usd": 0.4361,
+ "minutes": 2.3,
+ "stop": null,
+ "ship": false,
+ "branch": "seo-loop/2026-10-22",
+ "tasks_created": [
+  "T-001"
+ ]
+}

@@ -1,0 +1,12 @@
+.scratch/
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+secrets/
+*.json.key
+gsc-key.json
+.cache/
+config.yaml
+!examples/*/config.yaml

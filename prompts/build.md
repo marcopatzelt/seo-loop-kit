@@ -13,11 +13,22 @@ Language of every visible word: {{language}}. Today: {{today}}.
 ## Step 03: create tasks
 
 One task per finding. At most {{max_tasks}} tasks. A finding is a keyword with measured demand
-where the site has no page, or a page that ranks badly. Write the tasks as a JSON list to
+where the site has no page, or a page that ranks badly. If the data has a section "Search Console
+opportunities", prefer those findings: they are the site's own searches and cost nothing.
+Task types and what you may do for each:
+
+- `new-page`: a content gap. Write a new page for the query.
+- `improve`: almost on page 1 (position 8-20). Edit the existing page: answer the query in the
+  first paragraph, add the missing section, add internal links to it. Keep the URL.
+- `snippet`: seen but not clicked. Rewrite only the title and the description of the existing page
+  so they promise what the query asks for. Nothing else.
+- `refresh`: the page loses clicks. Update facts, dates and examples on the existing page. Keep the URL.
+
+Put the type in the task's `"type"` field. Write the tasks as a JSON list to
 `{{tasks_path}}`, each object:
 
 ```json
-{"keyword": "...", "type": "new-page|improve|snippet|links", "target": "/path-on-site",
+{"keyword": "...", "type": "new-page|improve|snippet|refresh|links", "target": "/path-on-site",
  "file": "{{content_dir_rel}}/<slug>{{page_ext}}", "why": "numbers + source + date",
  "hypothesis": "what should happen in 21 days", "verify_metric": "e.g. top 10 for the keyword"}
 ```

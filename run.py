@@ -146,6 +146,31 @@ def analyze(cfg, client: dfsmod.DFS, cache_only: bool, keywords: list) -> tuple[
     return data, notes
 
 
+def gsc_opportunities(cfg, today: dt.date, pages: list, cache_dir: Path, dry_run: bool) -> tuple[dict | None, str]:
+    """Step 02, second source: the site's own searches from Search Console (free).
+    Last 28 days by page+query, the 28 days before by page. Cached for a day."""
+    from seoloop import opportunities as op
+    import verify
+    end = today - dt.timedelta(days=verify.GSC_LAG_DAYS)
+    start, prev_end = end - dt.timedelta(days=27), end - dt.timedelta(days=28)
+    prev_start = prev_end - dt.timedelta(days=27)
+    cache = cache_dir / f"gsc-{end.isoformat()}.json"
+    if cache.exists():
+        raw = json.loads(cache.read_text(encoding="utf-8"))
+    else:
+        key_env = cfg["verify"].get("gsc_key_env") or "GSC_KEY_FILE"
+        if dry_run or not os.environ.get(key_env):
+            return None, f"Search Console opportunities skipped ({'dry run' if dry_run else key_env + ' not set'})"
+        client = verify.GSC(os.environ[key_env], cfg["verify"].get("gsc_property") or cfg["site_url"])
+        raw = {"now": client.query(start, end, ["page", "query"]), "prev": client.query(prev_start, prev_end, ["page"])}
+        cache_dir.mkdir(parents=True, exist_ok=True)
+        cache.write_text(json.dumps(raw), encoding="utf-8")
+    found = op.find(raw["now"], raw["prev"], pages, cfg.get("find") or {})
+    found["_window"] = (start.isoformat(), end.isoformat())
+    n = sum(len(v) for k, v in found.items() if not k.startswith("_"))
+    return found, f"Search Console: {n} opportunities ({', '.join(f'{len(v)} {k}' for k, v in found.items() if not k.startswith('_'))})"
+
+
 def data_markdown(cfg, data: dict, notes: list, today: dt.date) -> str:
     loc, lang = cfg["location_code"], cfg["language_code"]
     out = [f"# Search data, {today.isoformat()}", "",
@@ -172,6 +197,10 @@ def data_markdown(cfg, data: dict, notes: list, today: dt.date) -> str:
         out.append("None. The domain ranks for no keyword in this market (empty result).")
     else:
         out += [f"- {r['keyword']}: position {r['pos']} ({r['url']})" for r in data["ranked"][:100]]
+    if data.get("gsc"):
+        from seoloop import opportunities as op
+        g = {k: v for k, v in data["gsc"].items() if not k.startswith("_")}
+        out += ["", op.markdown(g, *data["gsc"]["_window"])]
     if notes:
         out += ["", "## Gaps", ""] + [f"- {n}" for n in notes]
     return "\n".join(out) + "\n"
@@ -296,6 +325,8 @@ def main(argv=None) -> int:
           + ("" if have_creds or a.dry_run else " | no DataForSEO credentials: cache only"))
     for note in notes:
         print(f"   gap: {note}")
+    data["gsc"], gsc_note = gsc_opportunities(cfg, today, existing_pages(content_dir, ext), loop_dir / "cache" / "gsc", a.dry_run)
+    print(f"02 analyze: {gsc_note}")
 
     guard_kw = dict(read_roots=[root, loop_dir], write_roots=[content_dir, run_dir])
     if a.dry_run:

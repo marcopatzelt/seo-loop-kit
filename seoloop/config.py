@@ -26,6 +26,7 @@ DEFAULTS = {
     "models": {"builder": "claude-sonnet-5-5", "critic": "claude-opus-5-5", "advisor": ""},
     "critic": {"pass_score": 17, "max_rewrites": 1},
     "verify": {"after_days": 21, "gsc_property": "", "gsc_key_env": "GSC_KEY_FILE"},
+    "find": {},  # Search Console thresholds for step 02, see seoloop/opportunities.py DEFAULTS
 }
 
 

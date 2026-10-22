@@ -2,7 +2,8 @@
 
 An SEO loop for coding agents. Every 21 days it reads a task board, pulls search data, writes one
 page per finding, has each page checked by hard rules and graded by a second agent, and opens a
-pull request. 21 days after a page ships it reads Search Console. If the page ranked but nobody
+pull request. It finds work in the site's own Search Console data first: queries almost on page 1,
+snippets nobody clicks, content gaps and pages losing clicks. 21 days after a page ships it reads Search Console again. If the page ranked but nobody
 clicked, the task reopens on its own.
 
 This is the open-source version of the loop Marco Patzelt runs on his own sites, entry #1 on
@@ -46,6 +47,7 @@ CLI (which the Agent SDK drives).
 | `run.py` | One iteration with the Claude Agent SDK. Builder and critic are separate queries; the critic gets Read/Glob/Grep only. Writes only in the content dir and the run folder. Never pushes: it prints the git commands. Flags: `--dry-run`, `--budget`, `--model`, `--critic-model`, `--advisor`, `--max-pages`, `--draft-only` |
 | `dfs.py` | DataForSEO client: search volume, keyword ideas, SERP top 10, ranked keywords. Per-run cost cap, cache folder, no retries, cost read from the response |
 | `verify.py` | The 21-day check against Search Console (read-only), with the "ranked but no clicks" rule |
+| `seoloop/opportunities.py` | Step 02 from Search Console: almost on page 1, seen but not clicked, content gaps, losing clicks |
 | `board.md`, `gate.md`, `critic.md` | Board template, the hard checks, the 20-point rubric |
 | `config.example.yaml` | Every setting with a comment |
 | `routine.yml` | GitHub Actions: schedule + manual run, opens a PR with `gh` only if gate and critic passed |

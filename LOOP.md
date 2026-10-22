@@ -40,10 +40,14 @@ after it shipped, from Search Console. Rules:
 - Fewer than 50 impressions and position > 30, or no data: reopens as `improve`.
 - Clicks > 0 or position ≤ 10: `verified`, the numbers go on the board.
 
-**02 Analyze.** Pull search data for the target keywords in one market (location and language
-fixed in the config, never mixed): search volume, the Google top 10 and its features, and what the
-site already ranks for. Every call goes through a cache, so the same question is never paid twice.
-An empty result is data: record it, do not replace it with a neighbouring number.
+**02 Analyze.** Two sources. First the site's own searches from Search Console (free, last 28 days
+against the 28 before, `seoloop/opportunities.py`): queries where a page ranks 8-20 (**improve**),
+top-10 queries with many impressions and a click rate under 1 % (**snippet**), queries with
+impressions but no page that fits, the content gaps (**new-page**), and pages with 30 % fewer
+clicks than before (**refresh**). Then, for the target keywords, DataForSEO in one market (location
+and language fixed in the config, never mixed): search volume, the Google top 10 and its features,
+and what the site already ranks for. Every call goes through a cache, so the same question is never
+paid twice. An empty result is data: record it, do not replace it with a neighbouring number.
 
 **03 Create tasks.** One task per finding: keyword, numbers with source and date, target path,
 hypothesis, and the metric that will be checked in 21 days. Skip what the board already has.

@@ -42,3 +42,16 @@ verify:
   after_days: 21
   gsc_property: ""                  # e.g. sc-domain:example.com; empty = site_url
   gsc_key_env: GSC_KEY_FILE         # env var holding the path to the service account JSON
+
+# Step 02 also reads the site's own searches from Search Console (free, same key as verify).
+# Findings: almost on page 1 (improve), seen but not clicked (snippet), content gaps (new-page),
+# pages losing clicks (refresh). Remove a line to keep the default.
+find:
+  min_impressions: 50               # striking distance and gaps need at least this many in 28 days
+  striking_from: 8                  # average position range for "almost on page 1"
+  striking_to: 20
+  snippet_impressions: 100
+  snippet_max_ctr: 0.01             # under 1 % click rate in the top 10
+  gap_min_position: 20              # best page ranks below this = no page answers the query
+  decay_drop: 0.3                   # 30 % fewer clicks than the 28 days before
+  decay_min_clicks: 20

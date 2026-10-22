@@ -73,6 +73,17 @@ class GSC:
         self.session = AuthorizedSession(creds)
         self.site = site_property
 
+    def query(self, start: dt.date, end: dt.date, dimensions: list, row_limit: int = 5000) -> list:
+        """searchAnalytics.query over the whole property, e.g. dimensions ["page", "query"] (step 02)."""
+        url = ("https://www.googleapis.com/webmasters/v3/sites/"
+               f"{urllib.parse.quote(self.site, safe='')}/searchAnalytics/query")
+        body = {"startDate": start.isoformat(), "endDate": end.isoformat(), "dimensions": dimensions,
+                "type": "web", "rowLimit": row_limit}
+        r = self.session.post(url, json=body, timeout=60)
+        if r.status_code != 200:
+            raise RuntimeError(f"Search Console HTTP {r.status_code}")
+        return r.json().get("rows") or []
+
     def page_rows(self, start: dt.date, end: dt.date, page_url: str) -> dict | None:
         url = ("https://www.googleapis.com/webmasters/v3/sites/"
                f"{urllib.parse.quote(self.site, safe='')}/searchAnalytics/query")
